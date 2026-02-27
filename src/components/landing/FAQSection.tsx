@@ -3,28 +3,28 @@ import { useState } from "react";
 
 const faqs = [
   {
-    q: "Why €1650 and not €500 or €15,000?",
-    a: "Because this isn't a Fiverr script and it isn't a 3-month agency retainer. It's a single, high-impact deliverable priced to be covered by the first 2-3 sales it generates for most offers. The guarantee removes the risk entirely."
+    q: "Pourquoi 1 650 € et pas 500 € ou 15 000 € ?",
+    a: "Parce que ce n'est ni un script Fiverr, ni un retainer d'agence sur 3 mois. C'est un livrable unique à fort impact, tarifé pour être couvert par les 2-3 premières ventes qu'il génère pour la plupart des offres. La garantie élimine tout risque."
   },
   {
-    q: "What if I don't have an offer yet?",
-    a: "Then you're not ready for a VSL. We work with businesses that have a proven offer and are spending (or about to spend) money on traffic. If you're still validating, come back when the offer is solid. We'll be here."
+    q: "Et si je n'ai pas encore d'offre ?",
+    a: "Alors vous n'êtes pas prêt pour une VSL. Je travaille avec des entrepreneurs qui ont une offre validée et qui dépensent (ou s'apprêtent à dépenser) en publicité. Si vous êtes encore en phase de validation, revenez quand l'offre tient la route. Je serai là."
   },
   {
-    q: "How is this different from hiring a freelance copywriter?",
-    a: "A freelance copywriter writes words. We engineer a conversion mechanism — the psychological sequence that holds attention and moves a viewer from skepticism to purchase. The script is the output. The architecture is the value."
+    q: "En quoi c'est différent d'un copywriter freelance classique ?",
+    a: "Un copywriter classique écrit des mots. Moi, j'ingénierie un mécanisme de conversion — la séquence psychologique qui capte l'attention et fait passer un spectateur du scepticisme à l'achat. Le script est le livrable. L'architecture est la valeur."
   },
   {
-    q: "How long does the process take?",
-    a: "7-10 business days from kick-off to final script delivery. The slide deck, LP audit, and tech integration follow within 5 business days after script approval. Total time to a live, running funnel: roughly 3 weeks."
+    q: "Combien de temps dure le processus ?",
+    a: "7 à 10 jours ouvrés du lancement à la livraison du script final. Le slide deck, l'audit LP et l'intégration technique suivent dans les 5 jours ouvrés après validation du script. Délai total pour un funnel en ligne qui tourne : environ 3 semaines."
   },
   {
-    q: "Do you write in French or English?",
-    a: "Both. The psychological frameworks are language-agnostic. The execution is native-level in both languages."
+    q: "Tu travailles en français ou en anglais ?",
+    a: "Les deux. Les frameworks psychologiques sont agnostiques de la langue. L'exécution est de niveau natif dans les deux."
   },
   {
-    q: "What does the guarantee actually cover?",
-    a: "If you deploy the VSL as delivered, run traffic to it, and it doesn't generate enough revenue to cover the €1650 fee within 90 days — we refund the full amount. We'll ask to see your ad spend and traffic data, because we need to verify the video actually ran. Fair."
+    q: "La garantie couvre quoi exactement ?",
+    a: "Si vous déployez la VSL telle que livrée, que vous envoyez du trafic dessus, et qu'elle ne génère pas assez de revenus pour couvrir les 1 650 € sous 90 jours — je rembourse intégralement. Je demanderai à voir vos dépenses pub et données de trafic, parce que je dois vérifier que la vidéo a bien tourné. Fair."
   }
 ];
 
@@ -46,8 +46,8 @@ const FAQSection = () => {
             Objections
           </span>
           <h2 className="text-4xl md:text-5xl font-serif font-bold">
-            You're still reading.<br />
-            <span className="text-muted-foreground text-3xl md:text-4xl">These might be why.</span>
+            Vous lisez encore.<br />
+            <span className="text-muted-foreground text-3xl md:text-4xl">Voici probablement pourquoi.</span>
           </h2>
         </motion.div>
 

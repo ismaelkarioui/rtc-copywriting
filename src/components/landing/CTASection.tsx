@@ -11,17 +11,17 @@ const CTASection = () => {
           viewport={{ once: true }}
         >
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold leading-tight mb-8">
-            Stop feeding the algorithm
+            Arrêtez de nourrir l'algorithme
             <br />
-            <span className="text-gradient-gold italic">dead content.</span>
+            <span className="text-gradient-gold italic">avec du contenu mort.</span>
           </h2>
           <p className="text-lg text-secondary-foreground max-w-lg leading-relaxed mb-4">
-            You've read this far because something about your current funnel isn't working. 
-            You know it. Your ad spend report confirms it every month.
+            Vous avez lu jusqu'ici parce que quelque chose dans votre funnel actuel ne fonctionne pas. 
+            Vous le savez. Votre rapport de dépenses publicitaires vous le confirme chaque mois.
           </p>
           <p className="text-foreground max-w-lg">
-            There are two options: keep optimizing audiences for a video that doesn't convert, 
-            or fix the video.
+            Deux options : continuer à optimiser des audiences pour une vidéo qui ne convertit pas, 
+            ou réparer la vidéo.
           </p>
         </motion.div>
 
@@ -33,21 +33,21 @@ const CTASection = () => {
           transition={{ delay: 0.2 }}
         >
           <div className="border border-primary/30 p-10 glow-gold">
-            <h3 className="font-serif text-2xl font-bold mb-4">Book a strategy call.</h3>
+            <h3 className="font-serif text-2xl font-bold mb-4">Réservez un appel stratégique.</h3>
             <p className="text-sm text-secondary-foreground mb-8 leading-relaxed">
-              15 minutes. No pitch. We analyze your current VSL or funnel, 
-              tell you exactly what's leaking conversions, and whether we're the right fit.
+              15 minutes. Pas de pitch. J'analyse votre VSL ou votre funnel actuel, 
+              je vous dis exactement ce qui fait fuir vos conversions, et si je suis le bon fit.
             </p>
             
             <a
               href="#contact"
               className="block w-full text-center bg-primary text-primary-foreground font-mono text-sm tracking-wider uppercase py-4 px-8 hover:bg-gold-glow transition-colors duration-300"
             >
-              Schedule the Call →
+              Réserver l'appel →
             </a>
             
             <p className="text-xs text-muted-foreground mt-4 text-center">
-              No commitment. No follow-up spam. Just clarity.
+              Pas d'engagement. Pas de relance. Juste de la clarté.
             </p>
           </div>
         </motion.div>

@@ -10,15 +10,14 @@ const OfferSection = () => {
         viewport={{ once: true }}
       >
         <span className="font-mono text-xs tracking-[0.3em] uppercase text-primary mb-6 block">
-          The Offer
+          L'Offre
         </span>
         <h2 className="text-4xl md:text-6xl font-serif font-bold leading-tight max-w-4xl">
-          One fixed price. <span className="italic text-gradient-gold">Everything handled.</span>
+          Un prix fixe. <span className="italic text-gradient-gold">Tout est pris en charge.</span>
         </h2>
       </motion.div>
 
       <div className="grid lg:grid-cols-2 gap-12">
-        {/* Core offer */}
         <motion.div
           className="border border-primary/30 p-10 md:p-14 glow-gold relative"
           initial={{ opacity: 0, y: 30 }}
@@ -26,28 +25,27 @@ const OfferSection = () => {
           viewport={{ once: true }}
         >
           <div className="absolute -top-4 left-10 bg-background px-4">
-            <span className="font-mono text-xs tracking-widest uppercase text-primary">Core Deliverable</span>
+            <span className="font-mono text-xs tracking-widest uppercase text-primary">Livrable Principal</span>
           </div>
           
           <h3 className="text-3xl md:text-4xl font-serif font-bold mb-6">
-            High-Retention VSL Script
+            Script VSL Haute Rétention
           </h3>
           <p className="text-secondary-foreground leading-relaxed mb-8">
-            A complete video sales letter script — researched, structured, and written to hold attention 
-            past the point where your competitors lose it. Engineered around your specific offer, market, 
-            and buyer psychology.
+            Un script de vidéo de vente complet — recherché, structuré et écrit pour maintenir 
+            l'attention au-delà du point où vos concurrents la perdent. Conçu autour de votre offre 
+            spécifique, votre marché et la psychologie de vos acheteurs.
           </p>
           
           <div className="flex items-baseline gap-2 mb-2">
-            <span className="text-5xl font-serif font-bold text-gradient-gold">€1650</span>
-            <span className="text-muted-foreground font-mono text-sm">HT / one-time</span>
+            <span className="text-5xl font-serif font-bold text-gradient-gold">1 650 €</span>
+            <span className="text-muted-foreground font-mono text-sm">HT / unique</span>
           </div>
           <p className="text-sm text-muted-foreground">
-            No retainers. No recurring fees. No scope creep.
+            Pas d'abonnement. Pas de frais récurrents. Pas de dérive de périmètre.
           </p>
         </motion.div>
 
-        {/* Bonuses */}
         <motion.div
           className="space-y-6"
           initial={{ opacity: 0, y: 30 }}
@@ -57,22 +55,22 @@ const OfferSection = () => {
         >
           <div className="mb-4">
             <span className="font-mono text-xs tracking-widest uppercase text-muted-foreground">
-              "Don't Lift a Finger" Bonuses
+              Bonus « Vous ne levez pas le petit doigt »
             </span>
           </div>
 
           {[
             {
-              title: "Full VSL Slide Deck",
-              desc: "Designed, formatted, ready to open and record. No staring at blank Canva templates."
+              title: "Slide Deck VSL Complet",
+              desc: "Designé, formaté, prêt à ouvrir et enregistrer. Fini les templates Canva vides qui vous fixent."
             },
             {
-              title: "Landing Page Audit & Rewrite",
-              desc: "We rip apart the page where your VSL lives and rebuild the copy around it. Because a great video on a bad page is a waste."
+              title: "Audit & Réécriture de Landing Page",
+              desc: "Je démonte la page où vit votre VSL et je reconstruis le copy autour. Parce qu'une bonne vidéo sur une mauvaise page, c'est du gâchis."
             },
             {
-              title: "Tech Integration",
-              desc: "We plug it all in — Systeme.io, Clickfunnels, or GoHighLevel. You show up to a machine that's already running."
+              title: "Intégration Technique",
+              desc: "Je branche tout — Systeme.io, Clickfunnels ou GoHighLevel. Vous arrivez devant une machine qui tourne déjà."
             }
           ].map((bonus, i) => (
             <div key={i} className="border border-border p-6 hover:border-gold-dim transition-colors duration-300">
@@ -87,7 +85,7 @@ const OfferSection = () => {
           ))}
 
           <p className="text-sm text-muted-foreground italic pt-4">
-            Included at no additional cost. Not upsells. Not "limited time." Part of the package.
+            Inclus sans surcoût. Pas des upsells. Pas du « offre limitée ». Ça fait partie du package.
           </p>
         </motion.div>
       </div>

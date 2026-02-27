@@ -11,7 +11,6 @@ const HeroSection = () => {
       
       <div className="relative w-full max-w-7xl mx-auto px-6 lg:px-12 py-32">
         <div className="grid lg:grid-cols-12 gap-12 items-end">
-          {/* Main headline - takes up most of the space */}
           <motion.div 
             className="lg:col-span-8"
             initial={{ opacity: 0, y: 40 }}
@@ -25,22 +24,21 @@ const HeroSection = () => {
             </div>
             
             <h1 className="text-5xl md:text-7xl lg:text-8xl font-serif font-900 leading-[0.9] tracking-tight mb-8">
-              Your ads <span className="italic text-gradient-gold">bleed</span> money.
+              Vos pubs <span className="italic text-gradient-gold">saignent</span> du budget.
               <br />
               <span className="text-muted-foreground text-4xl md:text-5xl lg:text-6xl">
-                Your viewers scroll past.
+                Vos prospects scrollent sans s'arrêter.
               </span>
             </h1>
             
             <div className="line-gold w-32 mt-12 mb-8" />
             
             <p className="text-lg md:text-xl text-secondary-foreground max-w-xl leading-relaxed">
-              We engineer VSLs that make leaving feel impossible. 
-              Not with tricks. With surgical narrative architecture.
+              J'ingénierie des VSL qui rendent le départ impossible. 
+              Pas avec des astuces. Avec une architecture narrative chirurgicale.
             </p>
           </motion.div>
 
-          {/* Side element - the data point */}
           <motion.div 
             className="lg:col-span-4"
             initial={{ opacity: 0 }}
@@ -49,14 +47,14 @@ const HeroSection = () => {
           >
             <div className="border border-border p-8 bg-card">
               <span className="font-mono text-xs text-muted-foreground tracking-wider uppercase block mb-4">
-                Average viewer retention
+                Rétention moyenne des spectateurs
               </span>
               <div className="flex items-baseline gap-2 mb-2">
                 <span className="text-6xl font-serif font-bold text-gradient-gold">83</span>
                 <span className="text-2xl text-primary">%</span>
               </div>
               <p className="text-sm text-muted-foreground">
-                across client VSLs. Industry average: 37%.
+                sur les VSL de mes clients. Moyenne du marché : 37%.
               </p>
               <div className="mt-6 space-y-2">
                 {[83, 91, 78, 88, 72].map((val, i) => (
@@ -78,14 +76,13 @@ const HeroSection = () => {
           </motion.div>
         </div>
         
-        {/* Scroll indicator */}
         <motion.div 
           className="absolute bottom-12 left-6 lg:left-12"
           animate={{ y: [0, 8, 0] }}
           transition={{ repeat: Infinity, duration: 2 }}
         >
           <span className="font-mono text-xs text-muted-foreground tracking-wider uppercase">
-            Scroll ↓
+            Défiler ↓
           </span>
         </motion.div>
       </div>

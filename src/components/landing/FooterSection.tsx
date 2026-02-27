@@ -7,12 +7,12 @@ const FooterSection = () => {
             RTC Copywriting
           </span>
           <p className="text-sm text-muted-foreground mt-2">
-            Conversion architecture for serious operators.
+            Architecture de conversion pour entrepreneurs sérieux.
           </p>
         </div>
         
         <div className="text-sm text-muted-foreground">
-          © {new Date().getFullYear()} RTC Copywriting. All rights reserved.
+          © {new Date().getFullYear()} RTC Copywriting. Tous droits réservés.
         </div>
       </div>
     </footer>

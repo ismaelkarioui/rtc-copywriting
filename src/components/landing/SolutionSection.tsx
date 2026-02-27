@@ -4,23 +4,23 @@ const SolutionSection = () => {
   const steps = [
     {
       num: "01",
-      title: "Psychological Hook Architecture",
-      desc: "We open with a pattern interrupt calibrated to your market's specific frustrations. Not a generic question. A surgical incision into the exact thought running through their head at 2am."
+      title: "Architecture d'Accroche Psychologique",
+      desc: "J'ouvre avec un pattern interrupt calibré sur les frustrations exactes de votre marché. Pas une question générique. Une incision chirurgicale dans la pensée qui tourne en boucle dans la tête de votre prospect à 2h du matin."
     },
     {
       num: "02",
-      title: "Narrative Tension Engine",
-      desc: "Every sentence earns the next. We build curiosity loops, open story threads, and deploy micro-commitments that make your viewer feel invested before they realize they are."
+      title: "Moteur de Tension Narrative",
+      desc: "Chaque phrase mérite la suivante. Je construis des boucles de curiosité, j'ouvre des fils narratifs et je déploie des micro-engagements qui rendent votre spectateur investi avant même qu'il ne s'en rende compte."
     },
     {
       num: "03",
-      title: "Mechanism Reveal",
-      desc: "Your offer isn't presented. It's discovered. We engineer the 'aha moment' so viewers feel like the purchase decision was their idea. Because it was. We just made it inevitable."
+      title: "Révélation du Mécanisme",
+      desc: "Votre offre n'est pas présentée. Elle est découverte. J'ingénierie le moment « eurêka » pour que le prospect ait le sentiment que la décision d'achat vient de lui. Parce que c'est le cas. Je l'ai juste rendue inévitable."
     },
     {
       num: "04",
-      title: "Objection Dissolution",
-      desc: "We don't handle objections — we prevent them from forming. Every doubt is pre-empted inside the narrative flow, so the CTA feels like relief, not pressure."
+      title: "Dissolution des Objections",
+      desc: "Je ne traite pas les objections — j'empêche leur formation. Chaque doute est désamorcé à l'intérieur du flux narratif, pour que le CTA ressemble à un soulagement, pas à une pression."
     }
   ];
 
@@ -36,12 +36,12 @@ const SolutionSection = () => {
           viewport={{ once: true }}
         >
           <span className="font-mono text-xs tracking-[0.3em] uppercase text-primary mb-6 block">
-            The Method
+            La Méthode
           </span>
           <h2 className="text-4xl md:text-6xl font-serif font-bold leading-tight max-w-3xl">
-            We don't write scripts.
+            Je n'écris pas des scripts.
             <br />
-            <span className="text-gradient-gold italic">We architect decisions.</span>
+            <span className="text-gradient-gold italic">J'architecte des décisions.</span>
           </h2>
         </motion.div>
 
