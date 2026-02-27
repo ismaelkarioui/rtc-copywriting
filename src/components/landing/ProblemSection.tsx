@@ -12,12 +12,12 @@ const ProblemSection = () => {
           transition={{ duration: 0.6 }}
         >
           <span className="font-mono text-xs tracking-[0.3em] uppercase text-primary mb-6 block">
-            The Problem
+            Le Problème
           </span>
           <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight">
-            You're paying for
+            Vous payez pour de
             <br />
-            <span className="italic text-gradient-gold">attention you never get.</span>
+            <span className="italic text-gradient-gold">l'attention que vous n'obtenez jamais.</span>
           </h2>
         </motion.div>
 
@@ -29,26 +29,27 @@ const ProblemSection = () => {
           transition={{ duration: 0.6, delay: 0.2 }}
         >
           <p className="text-lg text-secondary-foreground leading-relaxed">
-            Every euro you pour into ads buys you a shot. A few seconds of someone's fractured attention. 
-            And what do they land on? A sales video that reads like a ransom note written by committee.
+            Chaque euro injecté dans vos pubs vous achète une chance. Quelques secondes d'attention 
+            fracturée. Et qu'est-ce que le prospect trouve en face ? Une vidéo de vente qui ressemble 
+            à une demande de rançon rédigée par un comité.
           </p>
           
           <div className="space-y-6 border-l border-border pl-8">
             {[
               {
-                stat: "€47",
-                label: "Average cost per qualified click in competitive niches.",
-                detail: "That viewer gives you 8 seconds before the thumb moves."
+                stat: "47 €",
+                label: "Coût moyen par clic qualifié dans les niches concurrentielles.",
+                detail: "Ce prospect vous accorde 8 secondes avant de passer au suivant."
               },
               {
                 stat: "73%",
-                label: "Drop off in the first 30 seconds of most VSLs.",
-                detail: "Your offer never gets heard. Your proof never gets seen."
+                label: "D'abandon dans les 30 premières secondes de la plupart des VSL.",
+                detail: "Votre offre n'est jamais entendue. Vos preuves ne sont jamais vues."
               },
               {
-                stat: "€0",
-                label: "Return on a video nobody watches.",
-                detail: "The math doesn't lie. Boring is the most expensive word in advertising."
+                stat: "0 €",
+                label: "Le retour sur une vidéo que personne ne regarde.",
+                detail: "Les chiffres ne mentent pas. L'ennui est le mot le plus cher en publicité."
               }
             ].map((item, i) => (
               <motion.div 
@@ -72,7 +73,7 @@ const ProblemSection = () => {
 
           <div className="pt-8">
             <p className="text-xl text-foreground font-serif italic">
-              "The problem is never traffic. The problem is what happens after the click."
+              « Le problème, ce n'est jamais le trafic. C'est ce qui se passe après le clic. »
             </p>
           </div>
         </motion.div>
