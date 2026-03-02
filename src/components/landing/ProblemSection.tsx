@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 const ProblemSection = () => {
   return (
-    <section className="py-32 px-6 lg:px-12 max-w-7xl mx-auto">
+    <section className="px-6 lg:px-12 max-w-7xl mx-auto py-[80px]">
       <div className="grid lg:grid-cols-12 gap-16">
         <motion.div
           className="lg:col-span-5"
@@ -61,7 +61,7 @@ const ProblemSection = () => {
               transition={{ delay: 0.3 + i * 0.15 }}>
               
                 <div className="flex items-baseline gap-4 mb-1">
-                  <span className="text-3xl font-serif font-bold text-primary">{item.stat}</span>
+                  <span className="font-serif font-bold text-primary text-xl">{item.stat}</span>
                   <span className="text-foreground font-medium">{item.label}</span>
                 </div>
                 <p className="text-sm text-muted-foreground ml-[calc(3ch+1rem)]">
