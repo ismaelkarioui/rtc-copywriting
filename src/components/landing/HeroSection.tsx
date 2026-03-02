@@ -29,7 +29,7 @@ const HeroSection = () => {
             <div className="line-gold w-32 mt-12 mb-8" />
             
             <p className="text-lg md:text-xl text-secondary-foreground max-w-xl leading-relaxed py-[15px]">
-              Je bâtis des architectures de VSL qui scotchent leur regard et les qualifient un peu plus chaque minute jusqu'au CTA. Sans manipulation, ni fausse urgence. Avec une structure narrative chirurgicale.
+              Je bâtis des architectures de VSL qui scotchent leur regard et les qualifient un peu plus chaque minute jusqu'au CTA. Sans manipulation ni fausse urgence, grâce à une structure narrative chirurgicale.
             </p>
           </motion.div>
         </div>
@@ -40,7 +40,7 @@ const HeroSection = () => {
           transition={{ repeat: Infinity, duration: 2 }}>
 
           <span className="font-mono text-xs text-muted-foreground tracking-wider uppercase">
-            Découvrir comment sauver mon budget ↓
+            Découvrir comment rentabiliser mes pubs ↓
           </span>
         </motion.div>
       </div>

@@ -15,9 +15,9 @@ const ProblemSection = () => {
 
           </span>
           <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight">Vous payez pour de
-l'attention qui vous échappe dès les premières minutes
             <br />
-            <span className="italic text-gradient-gold">l'attention qui vous échappe dès les premières minutes</span>
+            <span className="italic text-gradient-gold">l'attention qui vous échappe</span>
+            dès les premières minutes
           </h2>
         </motion.div>
 
@@ -43,7 +43,7 @@ l'attention qui vous échappe dès les premières minutes
             },
             {
               stat: "73%",
-              label: "D'abandon dans les 30 premières secondes de la plupart des VSL.",
+              label: "d'abandon dans les 30 premières secondes de la plupart des VSL.",
               detail: "Votre offre n'est jamais entendue. Vos preuves ne sont jamais vues."
             },
             {

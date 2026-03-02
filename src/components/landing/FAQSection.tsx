@@ -8,7 +8,7 @@ const faqs = [
 },
 {
   q: "Et si je n'ai pas encore d'offre ?",
-  a: "Alors vous n'êtes pas prêt pour une VSL. Je travaille avec des entrepreneurs qui ont une offre validée et qui dépensent (ou s'apprêtent à dépenser) en publicité. Si vous êtes encore en phase de validation, revenez quand l'offre tient la route. Je serai là."
+  a: "Alors vous n'êtes pas prêt pour une VSL. Je travaille avec des entrepreneurs qui ont une offre validée et qui dépensent (ou s'apprêtent à dépenser) en publicité. Si vous êtes encore en phase de validation, revenez quand vous aurez la capacité de passer à l'échelle grâce à la publicité."
 },
 {
   q: "En quoi c'est différent d'un copywriter freelance classique ?",

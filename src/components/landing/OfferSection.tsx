@@ -12,7 +12,7 @@ const OfferSection = () => {
         <span className="font-mono text-xs tracking-[0.3em] uppercase text-primary mb-6 block">OFFRE DE LANCEMENT
 
         </span>
-        <h2 className="text-4xl md:text-6xl font-serif font-bold leading-tight max-w-4xl">Une offre exceptionnelle avec prise en charge de A à Z
+        <h2 className="text-4xl md:text-6xl font-serif font-bold leading-tight max-w-4xl">Une offre exceptionnelle 
           <span className="italic text-gradient-gold">prise en charge de A à Z</span>
         </h2>
         </motion.div>
@@ -25,27 +25,27 @@ const OfferSection = () => {
           viewport={{ once: true }}>
           
         <div className="absolute -top-4 left-10 bg-background px-4">
-          <span className="font-mono text-xs tracking-widest uppercase text-primary">Livrable Principal</span>
+          <span className="font-mono text-xs tracking-widest uppercase text-primary">Votre livrable principal</span>
         </div>
 
         <h3 className="text-3xl md:text-4xl font-serif font-bold mb-6">
-          Architecture narrative RTC clé en main
+          Architecture narrative RTC clé-en-main
         </h3>
         <p className="text-secondary-foreground leading-relaxed mb-8">
-          Un script de vidéo de vente complet — recherché, structuré et écrit pour maintenir 
+          Un script de vidéo de vente complet nourri, structuré et écrit pour maintenir 
           l'attention au-delà du point où vos concurrents la perdent. Conçu autour de votre offre 
-          spécifique, votre marché et la psychologie de vos acheteurs.
+          spécifique, votre marché et la psychologie de vos acheteurs. Livraison en 21 jours.
         </p>
 
         <div className="flex items-baseline gap-2 mb-2">
-          <span className="text-5xl font-serif font-bold text-gradient-gold">1 650 €</span>
+          <span className="text-5xl font-serif font-bold text-gradient-gold">1 650€</span>
           <span className="text-muted-foreground font-mono text-sm">HT</span>
         </div>
         <p className="text-sm font-bold uppercase tracking-wider mb-2 text-destructive">
-          ⚠️ Offre de lancement : 2 places restantes
+          Offre de lancement : 2 places restantes
         </p>
         <p className="text-xs text-muted-foreground">
-          Pas d'abonnement. Pas de frais récurrents. Pas de dérive de périmètre.
+          50% à la signature, 50% à la livraison. Aucuns frais supplémentaires.
         </p>
         </motion.div>
 
@@ -58,22 +58,22 @@ const OfferSection = () => {
           
         <div className="mb-4">
           <span className="font-mono text-xs tracking-widest uppercase text-muted-foreground">
-            Bonus (Valeur totale des bonus 1250€)
+            Bonus
           </span>
         </div>
 
         {[
           {
-            title: "Support visuel VSL complet",
+            title: "Support visuel VSL complet (valeur : 300€)",
             desc: "Designé, formaté, prêt pour le tournage."
           },
           {
-            title: "Optimisation de la page de destination",
-            desc: "Je démonte la page de destination qui redirige vers votre VSL et j'optimise la copie pour installer la tension avant que le prospect ait vu votre VSL."
+            title: "Optimisation de la page de destination (valeur : 700€)",
+            desc: "Je démonte la page de destination (landing page) qui redirige vers votre VSL et j'optimise la copie pour installer la tension avant que le prospect ait vu votre VSL."
           },
           {
-            title: "Intégration Technique",
-            desc: "J'installe votre VSL et votre landing page directement dans votre plateforme favorite de tunnel de vente (systeme.io, Clickfunnels, GoHighLevel, etc.)"
+            title: "Intégration technique",
+            desc: "J'installe votre VSL et votre page de destination directement dans votre plateforme favorite de tunnel de vente (systeme.io, Clickfunnels, GoHighLevel, etc.)"
           }].
           map((bonus, i) => <div key={i} className="border border-border p-6 hover:border-gold-dim transition-colors duration-300">
               <div className="flex items-start gap-4">
@@ -87,7 +87,7 @@ const OfferSection = () => {
           )}
 
           <p className="text-sm text-muted-foreground italic pt-4">
-            Inclus sans surcoût. Pas des upsells. Pas du « offre limitée ». Ça fait partie du package.
+            Offerts à la livraison, indisponibles à l'achat en dehors de cette offre exclusive. Valeur totale des bonus : 1250€.
           </p>
         </motion.div>
       </div>

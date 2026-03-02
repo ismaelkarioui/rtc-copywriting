@@ -10,7 +10,7 @@ const SolutionSection = () => {
   {
     num: "02",
     title: "Architecture de rétention optimale",
-    desc: "Chaque seconde de silence ou de remplissage est une porte de sortie. Je construis des structures à haute tension narrative où l'abandon devient une perte de temps pour le spectateur."
+    desc: "Chaque seconde de silence ou de remplissage est une porte de sortie. Je construis des structures à haute tension narrative où quitter la vidéo devient une perte immense pour le spectateur."
   },
   {
     num: "03",
@@ -20,7 +20,7 @@ const SolutionSection = () => {
   {
     num: "04",
     title: "Dissolution des barrières mentales",
-    desc: "Je ne traite pas les objections : j'empêche leur formation. Chaque doute est désamorcé à l'intérieur du flux narratif."
+    desc: "Je ne traite pas les objections, j'empêche leur formation. Chaque doute est désamorcé de manière fluide à l'intérieur du flux narratif."
   }];
 
 
@@ -41,7 +41,7 @@ const SolutionSection = () => {
           <h2 className="text-4xl md:text-6xl font-serif font-bold leading-tight max-w-3xl">
             Je n'écris pas des scripts,
             <br />
-            <span className="text-gradient-gold italic">je forge une conviction qui pousse à l'achat</span>
+            <span className="text-gradient-gold italic">je forge des convictions qui poussent à l'achat</span>
           </h2>
         </motion.div>
 
