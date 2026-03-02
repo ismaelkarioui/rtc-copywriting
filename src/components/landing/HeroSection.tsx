@@ -5,8 +5,8 @@ const HeroSection = () => {
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden">
       {/* Subtle grid background */}
-      <div className="absolute inset-0 opacity-[0.03]" style={{
-        backgroundImage: 'linear-gradient(hsl(43 100% 55%) 1px, transparent 1px), linear-gradient(90deg, hsl(43 100% 55%) 1px, transparent 1px)',
+      <div className="absolute inset-0 opacity-[0.04]" style={{
+        backgroundImage: 'linear-gradient(hsl(215 50% 20%) 1px, transparent 1px), linear-gradient(90deg, hsl(215 50% 20%) 1px, transparent 1px)',
         backgroundSize: '60px 60px'
       }} />
       
@@ -19,7 +19,7 @@ const HeroSection = () => {
             transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
           >
             <div className="mb-8">
-              <img src={logoRtc} alt="RTC Copywriting" className="h-16 w-auto" style={{ mixBlendMode: 'screen' }} />
+              <img src={logoRtc} alt="RTC Copywriting" className="h-24 md:h-28 w-auto" />
             </div>
             
             <h1 className="text-5xl md:text-7xl lg:text-8xl font-serif font-900 leading-[0.9] tracking-tight mb-8">
@@ -44,7 +44,7 @@ const HeroSection = () => {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.5, duration: 0.8 }}
           >
-            <div className="border border-border p-8 bg-card">
+            <div className="border border-border p-8 bg-card rounded-sm">
               <span className="font-mono text-xs text-muted-foreground tracking-wider uppercase block mb-4">
                 Rétention moyenne des spectateurs
               </span>
