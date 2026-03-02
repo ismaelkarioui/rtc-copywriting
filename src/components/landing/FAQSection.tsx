@@ -4,7 +4,7 @@ import { useState } from "react";
 const faqs = [
 {
   q: "Pourquoi facturer une VSL à un prix aussi dérisoire ?",
-  a: "Je sais qu'une bonne VSL coûte en moyenne 2 500 &euro; sur le marché (et les prix s'envolent parfois bien au-dessus de ça), mais mon objectif est simple : vous faire une offre tellement irrésistible que vous aurez du mal à la refuser parce que vous en sortirez forcément gagnant. En échange, j'aurais de la matière pour faire une étude de cas et montrer l'efficacité de mon travail. C'est plutôt honnête, non ?"
+  a: "Je sais qu'une bonne VSL coûte en moyenne 2 500 € sur le marché (et les prix s'envolent parfois bien au-dessus de ça), mais mon objectif est simple : vous faire une offre tellement irrésistible que vous aurez du mal à la refuser parce que vous en sortirez forcément gagnant. En échange, j'aurais de la matière pour faire une étude de cas et montrer l'efficacité de mon travail. C'est plutôt honnête, non ?"
 },
 {
   q: "Et si je n'ai pas encore d'offre ?",
@@ -20,7 +20,7 @@ const faqs = [
 },
 {
   q: "La garantie couvre quoi exactement ?",
-  a: "Si vous déployez la VSL telle que livrée, que vous envoyez du trafic dessus, et qu'elle ne génère pas assez de revenus pour couvrir les 1 650 &euro; que vous avez investis, faites-le-moi savoir. Vous verrez \"+1 650 &euro;\" écrit en vert sur votre appli bancaire. C'est tout."
+  a: "Si vous déployez la VSL telle que livrée, que vous envoyez du trafic dessus, et qu'elle ne génère pas assez de revenus pour couvrir les 1 650 € que vous avez investis, faites-le-moi savoir. Vous verrez \"+1 650 €\" écrit en vert sur votre appli bancaire. C'est tout."
 }];
 
 
