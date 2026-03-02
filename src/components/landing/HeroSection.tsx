@@ -28,7 +28,7 @@ const HeroSection = () => {
             
             <div className="line-gold w-32 mt-12 mb-8" />
             
-            <p className="text-lg md:text-xl text-secondary-foreground max-w-xl leading-relaxed">
+            <p className="text-lg md:text-xl text-secondary-foreground max-w-xl leading-relaxed py-[15px]">
               Je bâtis des architectures de VSL qui scotchent leur regard et les qualifient un peu plus chaque minute jusqu'au CTA. Sans manipulation, ni fausse urgence. Avec une structure narrative chirurgicale.
             </p>
           </motion.div>
