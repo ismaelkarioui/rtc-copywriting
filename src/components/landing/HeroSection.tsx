@@ -10,7 +10,7 @@ const HeroSection = () => {
         backgroundSize: '60px 60px'
       }} />
       
-      <div className="relative w-full max-w-7xl mx-auto px-6 lg:px-12 py-[70px]">
+      <div className="relative w-full max-w-7xl mx-auto px-6 lg:px-12 py-0">
         <div className="grid lg:grid-cols-12 gap-12 items-end">
           <motion.div
             className="lg:col-span-12"
@@ -28,7 +28,7 @@ const HeroSection = () => {
             
             <div className="line-gold w-32 mt-8 mb-6" />
             
-            <p className="text-lg md:text-xl text-secondary-foreground max-w-xl leading-relaxed py-[15px]">
+            <p className="text-lg md:text-xl text-secondary-foreground max-w-xl leading-relaxed py-0 pb-[80px]">
               Je bâtis des architectures de VSL qui scotchent le regard de vos prospects et les préqualifient grâce à une structure narrative chirurgicale.
             </p>
           </motion.div>
@@ -39,7 +39,7 @@ const HeroSection = () => {
           animate={{ y: [0, 8, 0] }}
           transition={{ repeat: Infinity, duration: 2 }}>
 
-          <span className="font-mono text-xs text-muted-foreground tracking-wider uppercase">
+          <span className="font-mono text-xs tracking-wider uppercase text-primary my-0 py-[70px]">
             Découvrir comment rentabiliser mes pubs ↓
           </span>
         </motion.div>
