@@ -22,11 +22,11 @@ const HeroSection = () => {
               <img alt="RTC Copywriting" className="h-36 md:h-24 w-auto" src="/lovable-uploads/15f3e3c4-4439-40da-84a9-f788f3b4f076.png" />
             </div>
             
-            <h1 className="text-5xl md:text-7xl lg:text-8xl font-serif font-900 leading-[0.9] tracking-tight mb-8">
+            <h1 className="text-5xl md:text-7xl font-serif font-900 leading-[0.9] tracking-tight mb-8">
               Vous <span className="italic text-gradient-gold">brûlez du cash en publicité</span> à cause d'une VSL générique qui flingue votre acquisition ?
             </h1>
             
-            <div className="line-gold w-32 mt-12 mb-8" />
+            <div className="line-gold w-32 mt-8 mb-6" />
             
             <p className="text-lg md:text-xl text-secondary-foreground max-w-xl leading-relaxed py-[15px]">
               Je bâtis des architectures de VSL qui scotchent leur regard et les qualifient un peu plus chaque minute jusqu'au CTA. Sans manipulation ni fausse urgence, grâce à une structure narrative chirurgicale.
