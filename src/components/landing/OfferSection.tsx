@@ -12,7 +12,7 @@ const OfferSection = () => {
         <span className="font-mono text-xs tracking-[0.3em] uppercase text-primary mb-6 block">LANCEMENT
 
         </span>
-        <h2 className="text-4xl md:text-6xl font-serif font-bold leading-tight max-w-4xl">Une offre exceptionnelle prise en charge de A à Z
+        <h2 className="text-4xl md:text-6xl font-serif font-bold leading-tight max-w-4xl">Une offre unique avec 
           <span className="italic text-gradient-gold">prise en charge de A à Z</span>
         </h2>
         </motion.div>
@@ -72,8 +72,8 @@ const OfferSection = () => {
             desc: "Je démonte la page de destination (landing page) qui redirige vers votre VSL et j'optimise la copie pour installer la tension avant que le prospect ait vu votre VSL."
           },
           {
-            title: "Intégration technique",
-            desc: "J'installe votre VSL et votre page de destination directement dans votre plateforme favorite de tunnel de vente (systeme.io, Clickfunnels, GoHighLevel, etc.)"
+            title: "Intégration technique (valeur : 250€)",
+            desc: "J'installe votre page de destination et votre VSL directement dans votre plateforme favorite de tunnel de vente (systeme.io, Clickfunnels, GoHighLevel, etc.)"
           }].
           map((bonus, i) => <div key={i} className="border border-border p-6 hover:border-gold-dim transition-colors duration-300">
               <div className="flex items-start gap-4">
@@ -87,8 +87,7 @@ const OfferSection = () => {
           )}
 
           <p className="text-sm text-muted-foreground italic pt-4">
-            Offerts à la livraison, indisponibles à l'achat en dehors de cette offre exclusive. Valeur totale des bonus : 1250€.
-          </p>
+            Offerts à la livraison. Ces bonus ne sont disponibles qu'en profitant de cette offre limitée. Valeur cumulée : 1250€.
         </motion.div>
       </div>
     </section>);
