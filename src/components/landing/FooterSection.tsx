@@ -12,7 +12,7 @@ const FooterSection = () => {
         </div>
         
         <div className="text-sm text-muted-foreground">
-          © {new Date().getFullYear()} RTC Copywriting. Ismaël Karioui, tous droits réservés.
+          © {new Date().getFullYear()} RTC Copywriting, Ismaël Karioui, tous droits réservés.
         </div>
       </div>
     </footer>);
