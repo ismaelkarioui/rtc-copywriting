@@ -14,10 +14,10 @@ const ProblemSection = () => {
           <span className="font-mono text-xs tracking-[0.3em] uppercase text-primary mb-6 block">
 
           </span>
-          <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight">
-            Vous payez pour de
+          <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight">Vous payez pour de
+l'attention qui vous échappe dès les premières minutes
             <br />
-            <span className="italic text-gradient-gold">l'attention qui vous échappe dès les premières minutes.</span>
+            <span className="italic text-gradient-gold">l'attention qui vous échappe dès les premières minutes</span>
           </h2>
         </motion.div>
 

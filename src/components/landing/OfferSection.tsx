@@ -9,11 +9,11 @@ const OfferSection = () => {
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}>
         
-        <span className="font-mono text-xs tracking-[0.3em] uppercase text-primary mb-6 block">
-          L'Offre
+        <span className="font-mono text-xs tracking-[0.3em] uppercase text-primary mb-6 block">OFFRE DE LANCEMENT
+
         </span>
-        <h2 className="text-4xl md:text-6xl font-serif font-bold leading-tight max-w-4xl">Prix unique, prise en charge de A à Z
-          <span className="italic text-gradient-gold">Tout est pris en charge.</span>
+        <h2 className="text-4xl md:text-6xl font-serif font-bold leading-tight max-w-4xl">Une offre exceptionnelle avec prise en charge de A à Z
+          <span className="italic text-gradient-gold">prise en charge de A à Z</span>
         </h2>
         </motion.div>
 

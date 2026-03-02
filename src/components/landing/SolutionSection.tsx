@@ -41,7 +41,7 @@ const SolutionSection = () => {
           <h2 className="text-4xl md:text-6xl font-serif font-bold leading-tight max-w-3xl">
             Je n'écris pas des scripts,
             <br />
-            <span className="text-gradient-gold italic">je forge des décisions d'achat</span>
+            <span className="text-gradient-gold italic">je forge une conviction qui pousse à l'achat</span>
           </h2>
         </motion.div>
 

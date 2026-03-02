@@ -15,8 +15,8 @@ const GuaranteeSection = () => {
 
           </span>
           
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold leading-tight mb-8">Si votre VSL ne se rembourse pas toute seul,
-vous ne payez rien.
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold leading-tight mb-8">Si votre VSL ne se rembourse pas toute seul, vous ne payez rien.
+
             <br />
             <span className="italic text-gradient-gold">vous ne payez rien.</span>
           </h2>
