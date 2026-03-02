@@ -47,8 +47,9 @@ const ProblemSection = () => {
                 detail: "Votre offre n'est jamais entendue. Vos preuves ne sont jamais vues."
               },
               {
-                stat: "0 €",
-                label: "Le retour sur investissement d'une vidéo qui ne captive pas l'attention."
+                stat: "+80%",
+                label: "C'est l'augmentation moyenne du taux de conversion d'une page avec une vidéo performante.",
+                detail: "Mais cela ne s'applique que si la vidéo est regardée. Une VSL ennuyeuse a un ROI de zéro, quel que soit le budget pub."
               }
             ].map((item, i) => (
               <motion.div 
