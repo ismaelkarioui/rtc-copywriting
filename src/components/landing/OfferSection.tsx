@@ -12,7 +12,7 @@ const OfferSection = () => {
         <span className="font-mono text-xs tracking-[0.3em] uppercase text-primary mb-6 block">LANCEMENT
 
         </span>
-        <h2 className="text-4xl md:text-6xl font-serif font-bold leading-tight max-w-4xl">Une offre exceptionnelle{" "}
+        <h2 className="text-4xl md:text-6xl font-serif font-bold leading-tight max-w-4xl">Une offre exceptionnelle prise en charge de A à Z
           <span className="italic text-gradient-gold">prise en charge de A à Z</span>
         </h2>
         </motion.div>
