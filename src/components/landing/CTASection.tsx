@@ -11,7 +11,7 @@ const CTASection = () => {
           viewport={{ once: true }}>
           
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold leading-tight mb-8">
-            Réparons ensemble <span className="text-gradient-gold italic">le goulot d'étranglement</span> de votre stratégie de conversion
+            Réparons ensemble le <span className="text-gradient-gold italic">centre névralgique</span> de votre système d'acquisition
           </h2>
           <p className="text-lg text-secondary-foreground max-w-lg leading-relaxed mb-4">Vous voulez continuer à envoyer des leads froids vers une vidéo qui ne convertit pas... ou vous préférez réparer la vidéo et relancer la machine ?
 
