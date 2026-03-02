@@ -37,9 +37,9 @@ const ProblemSection = () => {
           <div className="space-y-6 border-l border-border pl-8">
             {[
             {
-              stat: "Scaling",
-              label: "Le coût par acquisition (CPA) explose dès que le message manque de profondeur.",
-              detail: "Le trafic froid ne pardonne pas la médiocrité. Sans tension narrative, vous achetez du vent."
+              stat: "8 secondes",
+              label: "C'est désormais la durée d'attention moyenne d'un humain, soit moins qu'un poisson rouge.",
+              detail: "Selon une étude de Microsoft, vous n'avez pas 30 secondes pour convaincre, mais un clin d'œil. Si l'accroche de votre VSL ne stoppe pas le scroll, rien d'autre n'a d'importance."
             },
             {
               stat: "73%",
