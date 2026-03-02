@@ -33,21 +33,23 @@ const CTASection = () => {
           transition={{ delay: 0.2 }}
         >
           <div className="border border-primary/30 p-10 glow-gold">
-            <h3 className="font-serif text-2xl font-bold mb-4">Réservez un appel stratégique.</h3>
+            <h3 className="font-serif text-2xl font-bold mb-4">Réserver un diagnostic de rétention</h3>
             <p className="text-sm text-secondary-foreground mb-8 leading-relaxed">
               15 minutes. Pas de pitch. J'analyse votre VSL ou votre funnel actuel, 
               je vous dis exactement ce qui fait fuir vos conversions, et si je suis le bon fit.
             </p>
             
             <a
-              href="#contact"
+              href="https://cal.com/ismaelkarioui/diagnostic"
+              target="_blank"
+              rel="noopener noreferrer"
               className="block w-full text-center bg-primary text-primary-foreground font-mono text-sm tracking-wider uppercase py-4 px-8 hover:bg-gold-glow transition-colors duration-300"
             >
-              Réserver l'appel →
+              Réserver le diagnostic →
             </a>
             
             <p className="text-xs text-muted-foreground mt-4 text-center">
-              Pas d'engagement. Pas de relance. Juste de la clarté.
+              ⚠️ Attention : 2 places restantes pour ce mois. Pas d'engagement. Pas de relance.
             </p>
           </div>
         </motion.div>
