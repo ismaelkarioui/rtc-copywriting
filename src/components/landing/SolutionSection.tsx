@@ -39,7 +39,9 @@ const SolutionSection = () => {
 
           </span>
           <h2 className="text-4xl md:text-6xl font-serif font-bold leading-tight max-w-3xl">
-            Forger des <span className="text-gradient-gold italic">convictions</span> qui poussent à l'achat
+            Forger des{" "}
+            <span className="text-gradient-gold italic">convictions</span>{" "}
+            qui poussent à l'achat
           </h2>
         </motion.div>
 
