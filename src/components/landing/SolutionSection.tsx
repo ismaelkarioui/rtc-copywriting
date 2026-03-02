@@ -5,17 +5,17 @@ const SolutionSection = () => {
   {
     num: "01",
     title: "Diagnostic de l'audience cible",
-    desc: "On n'accroche pas un prospect sophistiqué avec une question de curiosité générique. On l'accroche en lui montrant qu'on a diagnostiqué son problème plus précisément que lui."
+    desc: "On n'accroche pas un prospect sceptique avec une question rhétorique. On l'accroche en lui montrant qu'on formule son problème mieux que lui-même n'en est capable."
   },
   {
     num: "02",
     title: "Architecture de rétention optimale",
-    desc: "Chaque seconde de silence ou de remplissage est une porte de sortie. Je construis des structures à haute tension narrative où quitter la vidéo devient une perte immense pour le spectateur."
+    desc: "Chaque mot en trop, chaque phrase inutile est une fuite potentielle. Je construis des structures à haute tension narrative où quitter la vidéo devient une perte immense pour le spectateur."
   },
   {
     num: "03",
     title: "Ingénierie du moment « Eurêka »",
-    desc: "Vous ne commencez pas par présenter votre offre, votre prospect réalise d'abord qu'elle est l'aboutissement logique de son cheminement. J'orchestre le moment de bascule psychologique."
+    desc: "Ce n'est pas vous qui présentez votre offre en premier, c'est votre prospect qui réalise qu'elle est l'aboutissement logique de son cheminement. J'orchestre ce moment de bascule psychologique."
   },
   {
     num: "04",
@@ -35,13 +35,11 @@ const SolutionSection = () => {
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}>
           
-          <span className="font-mono text-xs tracking-[0.3em] uppercase text-primary mb-6 block">LA MÉTHODE RTC
+          <span className="font-mono text-xs tracking-[0.3em] uppercase text-primary mb-6 block">LA MÉTHODE RTC : rétention - tension - conversion
 
           </span>
           <h2 className="text-4xl md:text-6xl font-serif font-bold leading-tight max-w-3xl">
-            Je n'écris pas des scripts,
-            <br />
-            <span className="text-gradient-gold italic">je forge des convictions qui poussent à l'achat</span>
+            Forger des <span className="text-gradient-gold italic">convictions</span> qui poussent à l'achat
           </h2>
         </motion.div>
 

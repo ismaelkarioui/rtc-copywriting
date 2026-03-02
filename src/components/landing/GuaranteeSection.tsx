@@ -15,14 +15,13 @@ const GuaranteeSection = () => {
 
           </span>
           
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold leading-tight mb-8">Si votre VSL ne se rembourse pas toute seul, 
-
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold leading-tight mb-8">Si votre VSL ne se rembourse pas toute seule, 
             <br />
             <span className="italic text-gradient-gold">vous ne payez rien</span>
           </h2>
 
           <div className="max-w-2xl mx-auto">
-            <p className="text-lg text-secondary-foreground leading-relaxed mb-8">Vous déployez la VSL et lancez les pubs. Si les revenus générés ne recouvrent pas votre investissement de 1 650€ HT, je vous rembourse intégralement. Garantie sans limite de durée.
+            <p className="text-lg text-secondary-foreground leading-relaxed mb-8">Vous déployez la VSL et lancez les pubs. Si les revenus générés ne recouvrent pas votre investissement de 1 650 &euro; HT, je vous rembourse intégralement. Garantie sans limite de durée.
 
             </p>
           </div>

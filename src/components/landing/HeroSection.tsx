@@ -23,13 +23,13 @@ const HeroSection = () => {
             </div>
             
             <h1 className="text-5xl md:text-7xl font-serif font-900 leading-[0.9] tracking-tight mb-8">
-              Vous <span className="italic text-gradient-gold">brûlez du cash en publicité</span> à cause d'une VSL générique qui flingue votre acquisition ?
+              Vous <span className="italic text-gradient-gold">brûlez du cash en publicité</span> à cause d'une VSL générique qui sabote votre acquisition ?
             </h1>
             
             <div className="line-gold w-32 mt-8 mb-6" />
             
             <p className="text-lg md:text-xl text-secondary-foreground max-w-xl leading-relaxed py-[15px]">
-              Je bâtis des architectures de VSL qui scotchent leur regard et les qualifient un peu plus chaque minute jusqu'au CTA. Sans manipulation ni fausse urgence, grâce à une structure narrative chirurgicale.
+              Je bâtis des architectures de VSL qui scotchent le regard de vos prospects et les préqualifient grâce à une structure narrative chirurgicale.
             </p>
           </motion.div>
         </div>

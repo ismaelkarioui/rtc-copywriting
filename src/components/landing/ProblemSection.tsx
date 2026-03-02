@@ -16,8 +16,8 @@ const ProblemSection = () => {
           </span>
           <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight">Vous payez pour de
             <br />
-            <span className="italic text-gradient-gold">l'attention qui vous échappe</span>
-            dès les premières minutes
+            <span className="italic text-gradient-gold">l'attention qui vous échappe</span>{" "}
+            en une fraction de secondes
           </h2>
         </motion.div>
 
@@ -29,17 +29,15 @@ const ProblemSection = () => {
           transition={{ duration: 0.6, delay: 0.2 }}>
           
           <p className="text-lg text-secondary-foreground leading-relaxed">
-            Chaque euro injecté dans vos pubs est comme un billet de loto. Vous gagnez quelques secondes d'une attention 
-            fracturée, mais si votre VSL ressemble à un script générique vu 1000 fois, vous ne perdez pas 
-            seulement de l'argent, vous perdez aussi votre autorité.
+            La publicité vous donne accès à quelques secondes d'une attention fracturée, mais si votre VSL ressemble à un script qui sent le réchauffé, vous ne perdez pas seulement de l'argent, vous perdez aussi votre autorité.
           </p>
           
           <div className="space-y-6 border-l border-border pl-8">
             {[
             {
               stat: "8 secondes",
-              label: "C'est désormais la durée d'attention moyenne d'un humain, soit moins qu'un poisson rouge.",
-              detail: "Selon une étude de Microsoft, vous n'avez pas 30 secondes pour convaincre, mais un clin d'œil. Si l'accroche de votre VSL ne stoppe pas le scroll, rien d'autre n'a d'importance."
+              label: "C'est la durée d'attention moyenne d'un humain en 2026, soit moins que celle d'un poisson rouge.",
+              detail: "Si l'accroche de votre VSL ne stoppe pas le scroll, c'est comme si vous n'existiez pas."
             },
             {
               stat: "73%",

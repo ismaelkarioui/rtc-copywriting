@@ -3,28 +3,24 @@ import { useState } from "react";
 
 const faqs = [
 {
-  q: "Pourquoi 1 650 € et pas 500 € ou 15 000 € ?",
-  a: "Parce que ce n'est ni un script Fiverr, ni un retainer d'agence sur 3 mois. C'est un livrable unique à fort impact, tarifé pour être couvert par les 2-3 premières ventes qu'il génère pour la plupart des offres. La garantie élimine tout risque."
+  q: "Pourquoi facturer une VSL à un prix aussi dérisoire ?",
+  a: "Je sais qu'une bonne VSL coûte en moyenne 2 500 &euro; sur le marché (et les prix s'envolent parfois bien au-dessus de ça), mais mon objectif est simple : vous faire une offre tellement irrésistible que vous aurez du mal à la refuser parce que vous en sortirez forcément gagnant. En échange, j'aurais de la matière pour faire une étude de cas et montrer l'efficacité de mon travail. C'est plutôt honnête, non ?"
 },
 {
   q: "Et si je n'ai pas encore d'offre ?",
   a: "Alors vous n'êtes pas prêt pour une VSL. Je travaille avec des entrepreneurs qui ont une offre validée et qui dépensent (ou s'apprêtent à dépenser) en publicité. Si vous êtes encore en phase de validation, revenez quand vous aurez la capacité de passer à l'échelle grâce à la publicité."
 },
 {
-  q: "En quoi c'est différent d'un copywriter freelance classique ?",
-  a: "Un copywriter classique écrit des mots. Moi, j'ingénierie un mécanisme de conversion — la séquence psychologique qui capte l'attention et fait passer un spectateur du scepticisme à l'achat. Le script est le livrable. L'architecture est la valeur."
+  q: "En quoi ça change d'un copywriter freelance classique ?",
+  a: "Un copywriter classique écrit des mots et remplit un template prédéfini. Moi, je conçois une mécanique de conversion : la séquence psychologique qui capte l'attention et fait passer un spectateur du scepticisme à l'achat. Le script est le livrable, mais la vraie valeur, c'est l'architecture."
 },
 {
   q: "Combien de temps dure le processus ?",
-  a: "7 à 10 jours ouvrés du lancement à la livraison du script final. Le slide deck, l'audit LP et l'intégration technique suivent dans les 5 jours ouvrés après validation du script. Délai total pour un funnel en ligne qui tourne : environ 3 semaines."
-},
-{
-  q: "Tu travailles en français ou en anglais ?",
-  a: "Les deux. Les frameworks psychologiques sont agnostiques de la langue. L'exécution est de niveau natif dans les deux."
+  a: "Vos actifs vous sont fournis clé-en-main sous 21 jours."
 },
 {
   q: "La garantie couvre quoi exactement ?",
-  a: "Si vous déployez la VSL telle que livrée, que vous envoyez du trafic dessus, et qu'elle ne génère pas assez de revenus pour couvrir les 1 650 € sous 90 jours — je rembourse intégralement. Je demanderai à voir vos dépenses pub et données de trafic, parce que je dois vérifier que la vidéo a bien tourné. Fair."
+  a: "Si vous déployez la VSL telle que livrée, que vous envoyez du trafic dessus, et qu'elle ne génère pas assez de revenus pour couvrir les 1 650 &euro; que vous avez investis, faites-le-moi savoir. Vous verrez \"+1 650 &euro;\" écrit en vert sur votre appli bancaire. C'est tout."
 }];
 
 
