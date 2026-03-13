@@ -12,17 +12,19 @@ const GuaranteeSection = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}>
 
-          <span className="font-mono text-xs tracking-[0.3em] uppercase text-primary mb-8 block">GARANTIE DE RETOUR SUR INVESTISSEMENT
-
+          <span className="font-mono text-xs tracking-[0.3em] uppercase text-primary mb-8 block">
+            GARANTIE TRANSFERT DE RISQUE
           </span>
 
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold leading-tight mb-8">Si votre VSL ne se rembourse pas toute seule,
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold leading-tight mb-8">
+            Si je ne casse pas votre plafond de verre,
             <br />
-            <span className="italic text-gradient-gold">vous ne payez rien</span>
+            <span className="italic text-gradient-gold">je travaille gratuitement</span>
           </h2>
 
-          <div className="max-w-2xl mx-auto">
-            <p className="text-lg text-secondary-foreground leading-relaxed mb-8">Vous déployez la VSL et lancez les pubs. Si les revenus générés ne recouvrent pas votre investissement de 1 650 € HT, je vous rembourse intégralement. Garantie sans limite de durée.
+          <div className="max-w-3xl mx-auto">
+            <p className="text-lg text-secondary-foreground leading-relaxed mb-8">
+              Si, à l'issue des 30 premiers jours de lancement sur votre trafic froid, le nouvel écosystème ne fait pas baisser votre CPA ou ne génère pas de croissance mesurable par rapport à votre ancienne version, je travaille gratuitement jusqu'à ce que vous soyez rentables.
             </p>
           </div>
 

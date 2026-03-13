@@ -21,15 +21,19 @@ const HeroSection = () => {
             <div className="mb-8">
               <img alt="RTC Copywriting" className="h-36 md:h-24 w-auto" src="/lovable-uploads/15f3e3c4-4439-40da-84a9-f788f3b4f076.png" />
             </div>
+
+            <span className="font-mono text-xs tracking-[0.3em] uppercase text-primary mb-6 block">
+              POUR LES INFOPRENEURS QUI VEULENT PASSER LE CAP DES 100K€/MOIS
+            </span>
             
-            <h1 className="text-5xl md:text-7xl font-serif font-900 leading-[0.9] tracking-tight mb-8">
-              Vous <span className="italic text-gradient-gold">brûlez du cash en publicité</span> à cause d'une VSL générique qui sabote votre acquisition ?
+            <h1 className="text-5xl md:text-7xl font-serif font-900 leading-[0.9] tracking-tight mb-8 max-w-5xl">
+              Arrêtez de <span className="italic text-gradient-gold">brûler votre cash sur du trafic froid</span> à cause d'un tunnel VSL fracturé
             </h1>
             
             <div className="line-gold w-32 mt-8 mb-6" />
             
-            <p className="text-lg md:text-xl text-secondary-foreground max-w-xl leading-relaxed py-0 pb-[80px]">
-              Je bâtis des architectures de VSL qui scotchent le regard de vos prospects et les préqualifient grâce à une structure narrative chirurgicale.
+            <p className="text-lg md:text-xl text-secondary-foreground max-w-3xl leading-relaxed py-0 pb-[80px]">
+              Votre coût par acquisition explose, vos marges se réduisent, et vos prospects sont mal qualifiés ? C'est le signe que votre tunnel VSL doit être réparé pour colmater les fuites et enfin scaler.
             </p>
           </motion.div>
         </div>
@@ -40,7 +44,7 @@ const HeroSection = () => {
           transition={{ repeat: Infinity, duration: 2 }}>
 
           <span className="font-mono text-xs tracking-wider uppercase text-primary my-0 py-[70px]">
-            Découvrir comment rentabiliser mes pubs ↓
+            Découvrir comment réparer votre tunnel VSL ↓
           </span>
         </motion.div>
       </div>

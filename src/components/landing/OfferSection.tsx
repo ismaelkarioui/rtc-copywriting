@@ -9,53 +9,86 @@ const OfferSection = () => {
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}>
         
-        <span className="font-mono text-xs tracking-[0.3em] uppercase text-primary mb-6 block">LANCEMENT
-        </span>
+        <span className="font-mono text-xs tracking-[0.3em] uppercase text-primary mb-6 block">LE MODÈLE PARTENAIRE</span>
         <h2 className="text-4xl md:text-6xl font-serif font-bold leading-tight max-w-4xl">
-          Une offre exceptionnelle{" "}
-          <span className="italic text-gradient-gold">prise en charge de A à Z</span>
+          Fini le tunnel fracturé,{" "}
+          <span className="italic text-gradient-gold">voici l'écosystème complet</span>
         </h2>
+        <p className="mt-8 text-xl text-secondary-foreground leading-relaxed max-w-3xl">
+          J'implémente un système de conversion complet basé sur les frameworks utilisés dans les lancements des challenges 5 jours sur lesquels j'ai travaillé.
+        </p>
       </motion.div>
 
       <div className="grid lg:grid-cols-2 gap-12">
         <motion.div
-          className="border border-primary/30 p-10 md:p-14 glow-gold relative"
+          className="border border-primary/30 p-10 md:p-14 glow-gold relative flex flex-col h-full"
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}>
           
           <div className="absolute -top-4 left-10 bg-background px-4">
-            <span className="font-mono text-xs tracking-widest uppercase text-primary">Votre livrable principal</span>
+            <span className="font-mono text-xs tracking-widest uppercase text-primary">L'Écosystème</span>
           </div>
 
           <h3 className="text-3xl md:text-4xl font-serif font-bold mb-6">
-            Architecture narrative RTC clé-en-main
+            L'architecture narrative RTC
           </h3>
-          <p className="text-secondary-foreground leading-relaxed mb-8">
-            Un script de vidéo de vente complet nourri, structuré et écrit pour maintenir 
-            l'attention au-delà du point où vos concurrents la perdent. Conçu autour de votre offre 
-            spécifique, votre marché et la psychologie de vos acheteurs. Livraison en 21 jours.
-          </p>
+          
+          <ul className="space-y-4 mb-8 text-secondary-foreground text-sm">
+            <li className="flex gap-3">
+              <span className="text-primary font-bold">✓</span>
+              <div>
+                <strong className="text-foreground">La génération de leads — Valeur 200€ :</strong> 5 scripts d'ads pour générer des leads qualifiés, abaisser le CPA et teaser le reste du tunnel d'acquisition.
+              </div>
+            </li>
+            <li className="flex gap-3">
+              <span className="text-primary font-bold">✓</span>
+              <div>
+                <strong className="text-foreground">Le cœur du réacteur (la VSL) — Valeur 2500€ :</strong> Le script haute performance, calibré seconde par seconde pour détruire les objections avant qu'elles ne se forment.
+              </div>
+            </li>
+            <li className="flex gap-3">
+              <span className="text-primary font-bold">✓</span>
+              <div>
+                <strong className="text-foreground">L'harmonisation en entrée et en sortie — Valeur 500€ :</strong> Optimisation du copywriting de la landing page pour maximiser le clic vers la VSL et de la page de réservation d'appel pour éviter une perte de leads aux moments critiques.
+              </div>
+            </li>
+            <li className="flex gap-3">
+              <span className="text-primary font-bold">✓</span>
+              <div>
+                <strong className="text-foreground">Le filet de sécurité — Valeur 500€ :</strong> Séquence de 3 à 5 emails de vente pour rattraper les indécis dans les jours qui viennent de manière 100% automatisée.
+              </div>
+            </li>
+          </ul>
 
-          <div className="flex items-baseline gap-2 mb-2">
-            <span className="text-5xl font-serif font-bold text-gradient-gold">1 650 €</span>
-            <span className="text-muted-foreground font-mono text-sm">HT</span>
+          <div className="mt-auto">
+            <p className="text-xs text-muted-foreground uppercase tracking-wider mb-2 font-mono">Valeur totale : 3 700 €</p>
+            <p className="text-sm text-secondary-foreground mb-6 leading-relaxed">
+              Au lieu de vous facturer 3700€ cash et de vous laisser seul avec la pression du ROAS, je m'adosse à vos résultats en tant que partenaire.
+            </p>
+
+            <div className="flex flex-wrap items-baseline gap-x-4 gap-y-2 mb-2">
+              <span className="text-5xl font-serif font-bold text-gradient-gold">2000€</span>
+              <span className="text-muted-foreground font-mono text-sm">HT de frais d'installation</span>
+            </div>
+            <div className="flex items-baseline gap-2 mb-6">
+              <span className="text-3xl font-serif font-bold text-foreground">+ 15%</span>
+              <span className="text-sm font-bold uppercase tracking-wider text-primary">de Prime de Croissance</span>
+            </div>
+            
+            <p className="text-xs text-muted-foreground mb-8 border-l-2 border-primary/50 pl-4">
+              La prime de 15% ne s'applique que sur le chiffre d'affaires SUPPLÉMENTAIRE généré. Je ne prends ma commission que sur la croissance qui dépasse votre palier de revenus actuel. Si vous ne gagnez pas plus qu'avant notre collaboration, je ne touche aucun pourcentage. Vous aurez économisé 1 700 € HT.
+            </p>
+
+            <a
+              href="https://cal.com/ismaelkarioui/diagnostic"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block w-full text-center bg-primary text-primary-foreground font-mono text-sm tracking-wider uppercase py-4 px-8 hover:bg-gold-glow transition-all duration-300 glow-gold-sm"
+            >
+              Réserver mon architecture RTC →
+            </a>
           </div>
-          <p className="text-sm font-bold uppercase tracking-wider mb-2 text-destructive">
-            Offre de lancement : 2 places restantes
-          </p>
-          <p className="text-xs text-muted-foreground mb-8">
-            50% à la signature, 50% à la livraison. Aucuns frais supplémentaires.
-          </p>
-
-          <a
-            href="https://cal.com/ismaelkarioui/diagnostic"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="block w-full text-center bg-primary text-primary-foreground font-mono text-sm tracking-wider uppercase py-4 px-8 hover:bg-gold-glow transition-all duration-300 glow-gold-sm"
-          >
-            Réserver mon architecture RTC →
-          </a>
         </motion.div>
 
         <motion.div
@@ -67,27 +100,27 @@ const OfferSection = () => {
           
           <div className="mb-4">
             <span className="font-mono text-xs tracking-widest uppercase text-muted-foreground">
-              Bonus
+              Les Bonus Offerts
             </span>
           </div>
 
           {[
             {
-              title: "Support visuel VSL complet (valeur : 300€)",
-              desc: "Designé, formaté, prêt pour le tournage."
+              title: "Les indications scénaristiques pour le montage",
+              desc: "La plupart des copywriters envoient un texte sans aucune annotation et laissent les monteurs se débrouiller. Moi, je livre le script avec des annotations pour optimiser la mise en scène et faciliter le travail de votre monteur."
             },
             {
-              title: "Optimisation de la page de destination (valeur : 700€)",
-              desc: "Je démonte la page de destination (landing page) qui redirige vers votre VSL et j'optimise la copie pour installer la tension avant que le prospect ait vu votre VSL."
+              title: "Le récapitulatif des objections",
+              desc: "Un document de synthèse pour votre équipe de vente. Il résume les objections de votre persona et les réponses à donner, alignées avec la VSL, pour éviter toute incohérence et perte de confiance au moment du closing."
             },
             {
-              title: "Intégration technique (valeur : 250€)",
-              desc: "J'installe votre page de destination et votre VSL directement dans votre plateforme favorite de tunnel de vente (systeme.io, Clickfunnels, GoHighLevel, etc.)"
+              title: "Le renouvellement mensuel des ads",
+              desc: "Tant que notre partenariat court, je fournis 3 nouveaux scripts d'ads chaque mois pour combattre la fatigue publicitaire sans frais supplémentaires."
             }
           ].map((bonus, i) => (
             <div key={i} className="border border-border p-6 hover:border-gold-dim transition-colors duration-300">
               <div className="flex items-start gap-4">
-                <span className="font-mono text-primary text-sm mt-1">+</span>
+                <span className="font-mono text-primary text-xl mt-0">🎁</span>
                 <div>
                   <h4 className="font-serif text-lg font-bold mb-2">{bonus.title}</h4>
                   <p className="text-sm text-secondary-foreground leading-relaxed">{bonus.desc}</p>
@@ -95,10 +128,6 @@ const OfferSection = () => {
               </div>
             </div>
           ))}
-
-          <p className="text-sm text-muted-foreground italic pt-4">
-            Offerts à la livraison. Ces bonus ne sont disponibles qu'en profitant de cette offre limitée. Valeur cumulée : 1 250 €.
-          </p>
         </motion.div>
       </div>
     </section>

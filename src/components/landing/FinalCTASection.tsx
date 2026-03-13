@@ -11,11 +11,11 @@ const FinalCTASection = () => {
           className="max-w-3xl"
         >
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold leading-tight mb-8">
-            Prêt à transformer votre VSL en{" "}
-            <span className="text-gradient-gold italic">machine à conversion ?</span>
+            Prêt à transformer votre tunnel VSL en{" "}
+            <span className="text-gradient-gold italic">machine à conversion performante ?</span>
           </h2>
           <p className="text-lg text-secondary-foreground mb-12 leading-relaxed">
-            Ne laissez plus votre budget publicitaire s'évaporer. Réservez votre diagnostic de 30 minutes pour identifier vos leviers de rétention immédiats.
+            Ne laissez plus votre budget publicitaire s'évaporer. Réservez votre diagnostic de 30 minutes pour identifier vos leviers d'optimisation immédiats.
           </p>
           
           <div className="w-full max-w-md mx-auto">
@@ -28,7 +28,7 @@ const FinalCTASection = () => {
               Réserver mon diagnostic (30 min) →
             </a>
             <p className="text-xs text-muted-foreground">
-              ⚠️ Rappel : il ne reste que 2 places pour l'offre de lancement à 1 650 €.
+              ⚠️ Rappel : je ne prends que 2 nouveaux partenaires ce mois-ci pour garantir mes résultats.
             </p>
           </div>
         </motion.div>

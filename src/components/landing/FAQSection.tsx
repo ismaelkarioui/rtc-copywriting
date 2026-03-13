@@ -3,26 +3,25 @@ import { useState } from "react";
 
 const faqs = [
 {
-  q: "Pourquoi facturer une VSL à un prix aussi dérisoire ?",
-  a: "Je sais qu'une bonne VSL coûte en moyenne 2 500 € sur le marché (et les prix s'envolent parfois bien au-dessus de ça), mais mon objectif est simple : vous faire une offre tellement irrésistible que vous aurez du mal à la refuser parce que vous en sortirez forcément gagnant. En échange, j'aurais de la matière pour faire une étude de cas et montrer l'efficacité de mon travail. C'est plutôt honnête, non ?"
+  q: "Pourquoi une mise en place de tout l'écosystème à 2 000€ alors que d'autres facturent 2500€ rien que pour la VSL ?",
+  a: "Parce que je suis un partenaire qui prend le risque avec vous sur les résultats, alors que les autres vous facturent une prestation et se lavent les mains pour le reste."
 },
 {
-  q: "Et si je n'ai pas encore d'offre ?",
-  a: "Alors vous n'êtes pas prêt pour une VSL. Je travaille avec des entrepreneurs qui ont une offre validée et qui dépensent (ou s'apprêtent à dépenser) en publicité. Si vous êtes encore en phase de validation, revenez quand vous aurez la capacité de passer à l'échelle grâce à la publicité."
+  q: "Et si je n'ai pas encore validé mon offre en organique ?",
+  a: "Alors nous ne pouvons pas collaborer pour l'instant parce que mon système est conçu pour scaler des offres qui génèrent déjà 10k€ à 50k€+/mois et qui ont besoin d'être rentables sur du trafic froid pour passer le cap des 100k€. Si vous atteignez ce stade prochainement, on pourra travailler ensemble."
 },
 {
-  q: "En quoi ça change d'un copywriter freelance classique ?",
-  a: "Un copywriter classique écrit des mots et remplit un template prédéfini. Moi, je conçois une mécanique de conversion : la séquence psychologique qui capte l'attention et fait passer un spectateur du scepticisme à l'achat. Le script est le livrable, mais la vraie valeur, c'est l'architecture."
+  q: "Comment calculez-vous les 15% de chiffre d'affaires \"supplémentaire\" ?",
+  a: "Nous établissons ensemble votre moyenne de revenus actuelle. Je ne prends 15% que sur l'argent généré au-delà de ce palier grâce au nouvel écosystème. Je ne gagne que si vous êtes en croissance."
 },
 {
-  q: "Combien de temps dure le processus ?",
-  a: "Vos actifs vous sont fournis clé-en-main sous 21 jours."
+  q: "Combien de temps prend le déploiement de l'écosystème ?",
+  a: "Comptez 1 mois entre notre appel stratégique de lancement et la livraison clé-en-main de tous les actifs (ads, LP, VSL, emails et bonus)."
 },
 {
-  q: "La garantie couvre quoi exactement ?",
-  a: "Si vous déployez la VSL telle que livrée, que vous envoyez du trafic dessus, et qu'elle ne génère pas assez de revenus pour couvrir les 1 650 € que vous avez investis, faites-le-moi savoir. Vous verrez \"+1 650 €\" écrit en vert sur votre appli bancaire. C'est tout."
+  q: "Que se passe-t-il si les publicités s'épuisent ?",
+  a: "C'est prévu dans le deal : tant que nous sommes partenaires, je vous fournis 3 nouveaux scripts d'ads chaque mois pour relancer votre acquisition sans aucuns frais supplémentaires."
 }];
-
 
 const FAQSection = () => {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
@@ -39,7 +38,6 @@ const FAQSection = () => {
           viewport={{ once: true }}>
           
           <span className="font-mono text-xs tracking-[0.3em] uppercase text-primary mb-6 block">FAQ
-
           </span>
           <h2 className="text-4xl md:text-5xl font-serif font-bold leading-tight">
             Réponses aux<br />

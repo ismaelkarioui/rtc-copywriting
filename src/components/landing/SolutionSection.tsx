@@ -4,23 +4,23 @@ const SolutionSection = () => {
   const steps = [
   {
     num: "01",
-    title: "Diagnostic de l'audience cible",
-    desc: "On n'accroche pas un prospect sceptique avec une question rhétorique. On l'accroche en lui montrant qu'on formule son problème mieux que lui-même n'en est capable."
+    title: "Les ads",
+    desc: "On ne cherche pas à faire des \"vues\", on cherche à qualifier l'audience. Je rédige des angles publicitaires chirurgicaux pour abaisser votre CPL et préparer le terrain psychologique."
   },
   {
     num: "02",
-    title: "Architecture de rétention optimale",
-    desc: "Chaque mot en trop, chaque phrase inutile est une fuite potentielle. Je construis des structures à haute tension narrative où quitter la vidéo devient une perte immense pour le spectateur."
+    title: "La mise en tension narrative",
+    desc: "Une landing page optimisée qui ne laisse aucune place à l'hésitation. L'objectif : que votre prospect se jette sur votre VSL pour obtenir ce qu'il désire."
   },
   {
     num: "03",
-    title: "Ingénierie du moment « Eurêka »",
-    desc: "Ce n'est pas vous qui présentez votre offre en premier, c'est votre prospect qui réalise qu'elle est l'aboutissement logique de son cheminement. J'orchestre ce moment de bascule psychologique."
+    title: "Le cœur du réacteur",
+    desc: "Une VSL haute performance qui accroche l'attention et désamorce le scepticisme en temps réel. Quitter la vidéo devient une perte immense pour le spectateur."
   },
   {
     num: "04",
-    title: "Dissolution des barrières mentales",
-    desc: "Je ne traite pas les objections, j'empêche leur formation. Chaque doute est désamorcé de manière fluide à l'intérieur du flux narratif."
+    title: "La relance post-VSL",
+    desc: "Une séquence d'emails de vente chirurgicale pour rattraper les indécis dans les jours suivants et maximiser votre ROAS sans aucun effort de votre part."
   }];
 
 
@@ -35,13 +35,12 @@ const SolutionSection = () => {
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}>
           
-          <span className="font-mono text-xs tracking-[0.3em] uppercase text-primary mb-6 block">LA MÉTHODE RTC : rétention - tension - conversion
+          <span className="font-mono text-xs tracking-[0.3em] uppercase text-primary mb-6 block">L'ARCHITECTURE DE CONVERSION
 
           </span>
-          <h2 className="text-4xl md:text-6xl font-serif font-bold leading-tight max-w-3xl">
-            Forger des{" "}
-            <span className="text-gradient-gold italic">convictions</span>{" "}
-            qui poussent à l'achat
+          <h2 className="text-4xl md:text-6xl font-serif font-bold leading-tight max-w-4xl">
+            Un écosystème aligné de{" "}
+            <span className="text-gradient-gold italic">la première seconde de pub jusqu'à l'achat</span>
           </h2>
         </motion.div>
 
