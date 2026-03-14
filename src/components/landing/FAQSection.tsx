@@ -3,12 +3,12 @@ import { useState } from "react";
 
 const faqs = [
 {
-  q: "Pourquoi une mise en place de tout l'écosystème à 2 000€ alors que d'autres facturent 2500€ rien que pour la VSL ?",
-  a: "Parce que je suis un partenaire qui prend le risque avec vous sur les résultats, alors que les autres vous facturent une prestation et se lavent les mains pour le reste."
+  q: "Pourquoi une mise en place de tout l'écosystème à 1000€ alors que d'autres facturent 2500€ rien que pour la VSL ?",
+  a: "Parce que cette offre est en bêta-test. Elle me permettra de créer une étude de cas solide et chiffrée pour montrer comment je travaille et les résultats que j'apporte."
 },
 {
   q: "Et si je n'ai pas encore validé mon offre en organique ?",
-  a: "Alors nous ne pouvons pas collaborer pour l'instant parce que mon système est conçu pour scaler des offres qui génèrent déjà 10k€ à 50k€+/mois et qui ont besoin d'être rentables sur du trafic froid pour passer le cap des 100k€. Si vous atteignez ce stade prochainement, on pourra travailler ensemble."
+  a: "Alors nous ne pouvons pas collaborer pour l'instant parce que mon système est conçu pour scaler des offres qui génèrent déjà 10k€ à 50k€+/mois et qui ont besoin d'être rentables sur du trafic froid pour passer le cap des 100k€. Si vous atteignez ce stade prochainement, n'hésitez pas à revenir réserver votre diagnostic."
 },
 {
   q: "Comment calculez-vous les 15% de chiffre d'affaires \"supplémentaire\" ?",

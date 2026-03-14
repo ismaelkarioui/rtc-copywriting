@@ -50,13 +50,13 @@ const OfferSection = () => {
             <li className="flex gap-3">
               <span className="text-primary font-bold">✓</span>
               <div>
-                <strong className="text-foreground">L'harmonisation en entrée et en sortie — Valeur 500€ :</strong> Optimisation du copywriting de la landing page pour maximiser le clic vers la VSL et de la page de réservation d'appel pour éviter une perte de leads aux moments critiques.
+                <strong className="text-foreground">L'harmonisation pré et post-VSL — Valeur 500€ :</strong> Optimisation du copywriting de la landing page pour maximiser le clic vers la VSL et de la page de réservation d'appel pour éviter une perte de leads aux moments critiques.
               </div>
             </li>
             <li className="flex gap-3">
               <span className="text-primary font-bold">✓</span>
               <div>
-                <strong className="text-foreground">Le filet de sécurité — Valeur 500€ :</strong> Séquence de 3 à 5 emails de vente pour rattraper les indécis dans les jours qui viennent de manière 100% automatisée.
+                <strong className="text-foreground">Le filet de sécurité — Valeur 500€ :</strong> Séquence de 5 emails de vente pour rattraper les indécis dans les jours qui viennent de manière 100% automatisée.
               </div>
             </li>
           </ul>
@@ -68,7 +68,7 @@ const OfferSection = () => {
             </p>
 
             <div className="flex flex-wrap items-baseline gap-x-4 gap-y-2 mb-2">
-              <span className="text-5xl font-serif font-bold text-gradient-gold">2000€</span>
+              <span className="text-5xl font-serif font-bold text-green-600">1000€</span>
               <span className="text-muted-foreground font-mono text-sm">HT de frais d'installation</span>
             </div>
             <div className="flex items-baseline gap-2 mb-6">
@@ -77,7 +77,11 @@ const OfferSection = () => {
             </div>
             
             <p className="text-xs text-muted-foreground mb-8 border-l-2 border-primary/50 pl-4">
-              La prime de 15% ne s'applique que sur le chiffre d'affaires SUPPLÉMENTAIRE généré. Je ne prends ma commission que sur la croissance qui dépasse votre palier de revenus actuel. Si vous ne gagnez pas plus qu'avant notre collaboration, je ne touche aucun pourcentage. Vous aurez économisé 1 700 € HT.
+              La prime de 15% ne s'applique que sur le chiffre d'affaires SUPPLÉMENTAIRE généré. Je ne prends ma commission que sur la croissance qui dépasse votre palier de revenus actuel. Si vous ne gagnez pas plus qu'avant notre collaboration, je ne touche aucun pourcentage. Vous aurez économisé 2 700 € HT.
+            </p>
+
+            <p className="text-red-500 font-bold text-center mb-4 animate-pulse uppercase tracking-wide text-sm">
+              2 places restantes avant que le prix augmente
             </p>
 
             <a
@@ -86,7 +90,7 @@ const OfferSection = () => {
               rel="noopener noreferrer"
               className="block w-full text-center bg-primary text-primary-foreground font-mono text-sm tracking-wider uppercase py-4 px-8 hover:bg-gold-glow transition-all duration-300 glow-gold-sm"
             >
-              Réserver mon architecture RTC →
+              Réserver mon diagnostic RTC →
             </a>
           </div>
         </motion.div>

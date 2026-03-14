@@ -32,13 +32,16 @@
 - **L'architecture narrative RTC (L'Écosystème) :**
   - **La génération de leads — Valeur 200€ :** 5 scripts d'ads pour générer des leads qualifiés, abaisser le CPA et teaser le reste du tunnel d'acquisition.
   - **Le cœur du réacteur (la VSL) — Valeur 2500€ :** Le script haute performance, calibré seconde par seconde pour détruire les objections avant qu'elles ne se forment.
-  - **L'harmonisation en entrée et en sortie — Valeur 500€ :** Optimisation du copywriting de la landing page pour maximiser le clic vers la VSL et de la page de réservation d'appel pour éviter une perte de leads aux moments critiques.
-  - **Le filet de sécurité — Valeur 500€ :** Séquence de 3 à 5 emails de vente pour rattraper les indécis dans les jours qui viennent de manière 100% automatisée.
+  - **L'harmonisation pré et post-VSL — Valeur 500€ :** Optimisation du copywriting de la landing page pour maximiser le clic vers la VSL et de la page de réservation d'appel pour éviter une perte de leads aux moments critiques.
+  - **Le filet de sécurité — Valeur 500€ :** Séquence de 5 emails de vente pour rattraper les indécis dans les jours qui viennent de manière 100% automatisée.
   - **(Valeur totale : 3700€)**
 - **L'offre partenaire :**
   - Au lieu de vous facturer 3700€ cash et de vous laisser seul avec la pression du ROAS, je m'adosse à vos résultats en tant que partenaire.
-  - **Conception & mise en place de l'écosystème : 2000€ HT de frais d'installation**
-  - **Prime de croissance : 15% du chiffre d'affaires SUPPLÉMENTAIRE généré.** Je ne prends ma commission que sur la croissance qui dépasse votre palier de revenus actuel. Si vous ne gagnez pas plus qu'avant notre collaboration, je ne touche aucun pourcentage. Vous aurez économisé 1700€ HT.
+  - **Conception & mise en place de l'écosystème : 1000€ HT de frais d'installation**
+  - **Prime de croissance : 15% du chiffre d'affaires SUPPLÉMENTAIRE généré.** Je ne prends ma commission que sur la croissance qui dépasse votre palier de revenus actuel. Si vous ne gagnez pas plus qu'avant notre collaboration, je ne touche aucun pourcentage. Vous aurez économisé 2700€ HT.
+
+**2 places restantes avant que le prix augmente**
+
 - **Les bonus offerts :**
   - **Bonus 1 : Les indications scénaristiques pour le montage.** La plupart des copywriters envoient un texte sans aucune annotation et laissent les monteurs se débrouiller. Moi, je livre le script avec des annotations pour optimiser la mise en scène et faciliter le travail de votre monteur.
   - **Bonus 2 : Le récapitulatif des objections.** Un document de synthèse pour votre équipe de vente. Il résume les objections de votre persona et les réponses à donner, alignées avec la VSL, pour éviter toute incohérence et perte de confiance au moment du closing.
@@ -50,10 +53,10 @@
 - **Description :** Si, à l'issue des 30 premiers jours de lancement sur votre trafic froid, le nouvel écosystème ne fait pas baisser votre CPA ou ne génère pas de croissance mesurable par rapport à votre ancienne version, je travaille gratuitement jusqu'à ce que vous soyez rentables.
 
 ## FAQ Section
-- **Q : Pourquoi une mise en place de tout l'écosystème à 2 000€ alors que d'autres facturent 2500€ rien que pour la VSL ?**
-  - R : Parce que je suis un partenaire qui prend le risque avec vous sur les résultats, alors que les autres vous facturent une prestation et se lavent les mains pour le reste.
+- **Q : Pourquoi une mise en place de tout l'écosystème à 1000€ alors que d'autres facturent 2500€ rien que pour la VSL ?**
+  - R : Parce que cette offre est en bêta-test. Elle me permettra de créer une étude de cas solide et chiffrée pour montrer comment je travaille et les résultats que j'apporte.
 - **Q : Et si je n'ai pas encore validé mon offre en organique ?**
-  - R : Alors nous ne pouvons pas collaborer pour l'instant parce que mon système est conçu pour scaler des offres qui génèrent déjà 10k€ à 50k€+/mois et qui ont besoin d'être rentables sur du trafic froid pour passer le cap des 100k€. Si vous atteignez ce stade prochainement, on pourra travailler ensemble.
+  - R : Alors nous ne pouvons pas collaborer pour l'instant parce que mon système est conçu pour scaler des offres qui génèrent déjà 10k€ à 50k€+/mois et qui ont besoin d'être rentables sur du trafic froid pour passer le cap des 100k€. Si vous atteignez ce stade prochainement, n'hésitez pas à revenir réserver votre diagnostic.
 - **Q : Comment calculez-vous les 15% de chiffre d'affaires "supplémentaire" ?**
   - R : Nous établissons ensemble votre moyenne de revenus actuelle. Je ne prends 15% que sur l'argent généré au-delà de ce palier grâce au nouvel écosystème. Je ne gagne que si vous êtes en croissance.
 - **Q : Combien de temps prend le déploiement de l'écosystème ?**
@@ -65,9 +68,9 @@
 - **Titre principal :** Réparez les fuites de votre tunnel VSL et scalez en toute tranquillité
 - **Paragraphe :** Vous voulez continuer à dilapider votre budget pub à cause d'un tunnel incohérent ou vous voulez trouver un partenaire qui fera tout pour y remédier ?
 - **Boîte de réservation :**
-  - **Titre :** Réserver un diagnostic RTC (30 min)
+  - **Titre :** Réserver mon diagnostic RTC (30 min)
   - **Description :** Analyse de votre stratégie, du copywriting de votre tunnel et plan de route concret pour repartir sur de bonnes bases.
-  - **CTA :** Réserver le diagnostic RTC →
-  - **Urgence :** ⚠️ Attention : je ne prends que 2 nouveaux partenaires ce mois-ci pour garantir mes résultats.
+  - **CTA :** Réserver maintenant →
+  - **Urgence :** ⚠️ Attention : il ne reste que 2 places avant que cette offre en bêta-test n'expire.
 - **Titre final :** Prêt à transformer votre tunnel VSL en *machine à conversion* performante ?
 - **Paragraphe final :** Ne laissez plus votre budget publicitaire s'évaporer. Réservez votre diagnostic de 30 minutes pour identifier vos leviers d'optimisation immédiats.
