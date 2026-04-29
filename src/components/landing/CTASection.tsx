@@ -1,52 +1,175 @@
-import { motion } from "framer-motion";
+import { CTAButton, Eyebrow, GoldItalic, Marginalia, Section } from "./Primitives";
 
-const CTASection = () => {
-  return (
-    <section className="py-32 px-6 lg:px-12 max-w-7xl mx-auto">
-      <div className="grid lg:grid-cols-12 gap-16 items-center">
-        <motion.div
-          className="lg:col-span-7"
-          initial={{ opacity: 0, x: -30 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          viewport={{ once: true }}>
-          
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold leading-tight mb-8">
-            Réparez les fuites de votre tunnel VSL et <span className="text-gradient-gold italic">scalez en toute tranquillité</span>
+const CTASection = () => (
+  <Section
+    id="cta"
+    label="06 CTA"
+    style={{
+      padding: "var(--section-pad, 120px) 0",
+      borderTop: "1px solid hsl(var(--border))",
+    }}
+  >
+    <div className="wrap-wide">
+      <div
+        style={{
+          display: "grid",
+          gridTemplateColumns: "minmax(120px, 1fr) 7fr 5fr",
+          gap: 40,
+          alignItems: "center",
+        }}
+      >
+        <Marginalia label="Chapitre 06" index="§ VI" />
+
+        <div>
+          <Eyebrow num="06" style={{ marginBottom: 32 }}>
+            Prochain pas
+          </Eyebrow>
+          <h2
+            style={{
+              fontFamily: "'Playfair Display', serif",
+              fontWeight: 700,
+              fontSize: "clamp(40px, 5.4vw, 80px)",
+              lineHeight: 0.98,
+              letterSpacing: "-0.025em",
+              margin: "0 0 28px",
+              color: "var(--fg-bright)",
+            }}
+          >
+            Vous avez la liste, l'offre, l'envergure.
+            <br />
+            <GoldItalic>
+              Reste à orchestrer le tout pour faire exploser votre CA.
+            </GoldItalic>
           </h2>
-          <p className="text-lg text-secondary-foreground max-w-lg leading-relaxed mb-4">
-            Vous voulez continuer à dilapider votre budget pub à cause d'un tunnel incohérent ou vous voulez trouver un partenaire qui fera tout pour y remédier ?
+          <p
+            style={{
+              fontSize: 17,
+              lineHeight: 1.65,
+              color: "var(--fg)",
+              margin: 0,
+              maxWidth: 560,
+            }}
+          >
+            L'appel diagnostic dure 30 minutes. On regarde votre offre, votre
+            audience, votre dernier lancement (si vous en avez fait un), et on
+            évalue si un partenariat sur votre prochain lancement a du sens,
+            pour vous comme pour moi.
           </p>
-        </motion.div>
+        </div>
 
-        <motion.div
-          className="lg:col-span-5"
-          initial={{ opacity: 0, x: 30 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          viewport={{ once: true }}
-          transition={{ delay: 0.2 }}>
-          
-          <div className="border border-primary/30 p-10 glow-gold">
-            <h3 className="font-serif text-2xl font-bold mb-4">Réserver un diagnostic RTC (30 min)</h3>
-            <p className="text-sm text-secondary-foreground mb-8 leading-relaxed">
-              Analyse de votre stratégie, du copywriting de votre tunnel et plan de route concret pour repartir sur de bonnes bases.
-            </p>
-            
-            <a
-              href="https://cal.com/ismaelkarioui/diagnostic"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="block w-full text-center bg-primary text-primary-foreground font-mono text-sm tracking-wider uppercase py-4 px-8 hover:bg-gold-glow transition-colors duration-300">
-              
-              Réserver le diagnostic RTC →
-            </a>
-            
-            <p className="text-xs text-muted-foreground mt-4 text-center">⚠️ Attention : je ne prends que 2 nouveaux partenaires ce mois-ci pour garantir mes résultats.
-            </p>
+        <div
+          style={{
+            border: "1px solid var(--border-strong)",
+            background: "var(--bg-elevated)",
+            padding: 40,
+            position: "relative",
+          }}
+        >
+          <div
+            style={{
+              position: "absolute",
+              top: -1,
+              left: 24,
+              transform: "translateY(-50%)",
+              background: "var(--bg)",
+              padding: "0 14px",
+              fontFamily: "'JetBrains Mono', monospace",
+              fontSize: 10,
+              letterSpacing: "0.3em",
+              textTransform: "uppercase",
+              color: "hsl(var(--accent))",
+            }}
+          >
+            Appel diagnostic · 30 min · Gratuit
           </div>
-        </motion.div>
-      </div>
-    </section>);
 
-};
+          <h3
+            style={{
+              fontFamily: "'Playfair Display', serif",
+              fontWeight: 700,
+              fontSize: 28,
+              margin: "12px 0 20px",
+              color: "var(--fg-bright)",
+              letterSpacing: "-0.01em",
+            }}
+          >
+            Réserver l'appel diagnostic
+          </h3>
+
+          <p
+            style={{
+              fontSize: 14,
+              color: "var(--fg)",
+              lineHeight: 1.6,
+              margin: "0 0 24px",
+            }}
+          >
+            Audit de votre setup actuel, diagnostic stratégique de votre
+            prochain lancement, et plan de bataille concret. Que vous bossiez
+            avec moi ensuite ou non, vous repartez avec quelque chose d'utile.
+          </p>
+
+          <ul
+            style={{
+              listStyle: "none",
+              padding: 0,
+              margin: "0 0 32px",
+              display: "flex",
+              flexDirection: "column",
+              gap: 10,
+            }}
+          >
+            {[
+              "Audit du setup actuel",
+              "Diagnostic stratégique du prochain lancement",
+              "Plan de bataille concret livré pendant l'appel",
+            ].map((t, i) => (
+              <li
+                key={i}
+                style={{
+                  display: "flex",
+                  gap: 12,
+                  fontSize: 14,
+                  color: "var(--fg)",
+                  lineHeight: 1.55,
+                }}
+              >
+                <span
+                  style={{
+                    color: "hsl(var(--accent))",
+                    fontFamily: "'JetBrains Mono', monospace",
+                    fontWeight: 700,
+                  }}
+                >
+                  ✓
+                </span>
+                <span>{t}</span>
+              </li>
+            ))}
+          </ul>
+
+          <CTAButton block href="https://cal.com/ismaelkarioui/diagnostic">
+            Réserver maintenant →
+          </CTAButton>
+
+          <p
+            style={{
+              fontFamily: "'JetBrains Mono', monospace",
+              fontSize: 10,
+              letterSpacing: "0.22em",
+              textTransform: "uppercase",
+              color: "var(--danger)",
+              textAlign: "center",
+              marginTop: 16,
+              marginBottom: 0,
+            }}
+          >
+            ⚠ Plus que 2 places en phase bêta-test
+          </p>
+        </div>
+      </div>
+    </div>
+  </Section>
+);
 
 export default CTASection;

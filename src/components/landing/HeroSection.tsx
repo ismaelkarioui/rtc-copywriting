@@ -1,55 +1,320 @@
-import { motion } from "framer-motion";
-import logoRtc from "@/assets/logo-rtc.png";
+import { CTAButton, Eyebrow, GoldItalic, GridBG, Marginalia, Ticker } from "./Primitives";
 
-const HeroSection = () => {
+export const NavBar = () => (
+  <nav className="rtc-nav">
+    <a href="#top" style={{ display: "flex", alignItems: "center", gap: 10 }}>
+      <span
+        style={{
+          display: "inline-block",
+          width: 10,
+          height: 10,
+          background: "hsl(var(--accent))",
+        }}
+      />
+      <span style={{ fontWeight: 500 }}>RTC</span>
+      <span style={{ color: "var(--fg-muted)" }}>// Copywriting</span>
+    </a>
+    <div style={{ display: "flex", gap: 28 }} className="rtc-nav-links">
+      <a href="#diagnostic">Diagnostic</a>
+      <a href="#architecture">Architecture</a>
+      <a href="#offre">Offre</a>
+      <a href="#faq">FAQ</a>
+    </div>
+    <a
+      href="https://cal.com/ismaelkarioui/diagnostic"
+      style={{
+        background: "hsl(var(--accent))",
+        color: "#fff",
+        padding: "10px 18px",
+        letterSpacing: "0.2em",
+      }}
+    >
+      Réserver →
+    </a>
+  </nav>
+);
+
+const HeroSection = ({
+  intensity = "quiet",
+  showTicker = false,
+}: {
+  intensity?: "bold" | "quiet";
+  showTicker?: boolean;
+}) => {
+  const quiet = intensity === "quiet";
   return (
-    <section className="relative py-20 lg:min-h-screen flex items-center overflow-hidden">
-      {/* Subtle grid background */}
-      <div className="absolute inset-0 opacity-[0.04]" style={{
-        backgroundImage: 'linear-gradient(hsl(215 50% 20%) 1px, transparent 1px), linear-gradient(90deg, hsl(215 50% 20%) 1px, transparent 1px)',
-        backgroundSize: '60px 60px'
-      }} />
-      
-      <div className="relative w-full max-w-7xl mx-auto px-6 lg:px-12 py-0">
-        <div className="grid lg:grid-cols-12 gap-12 items-end">
-          <motion.div
-            className="lg:col-span-12"
-            initial={{ opacity: 0, y: 40 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}>
+    <section
+      id="top"
+      style={{ position: "relative", paddingTop: 120, overflow: "hidden" }}
+    >
+      <GridBG opacity={quiet ? 0.03 : 0.05} />
 
-            <div className="mb-8">
-              <img alt="RTC Copywriting" className="h-36 md:h-24 w-auto" src="/lovable-uploads/15f3e3c4-4439-40da-84a9-f788f3b4f076.png" />
+      <div className="wrap-wide" style={{ position: "relative" }}>
+        <div
+          style={{
+            display: "grid",
+            gridTemplateColumns: "minmax(120px, 1fr) 8fr 4fr",
+            gap: 32,
+            alignItems: "start",
+            marginBottom: 40,
+          }}
+        >
+          <Marginalia label="Prologue" index="00" />
+          <Eyebrow>
+            Pour les infopreneurs qui ont une audience, une offre qui marche,
+            et un lancement à orchestrer
+          </Eyebrow>
+          <div
+            style={{
+              fontFamily: "'JetBrains Mono', monospace",
+              fontSize: 11,
+              letterSpacing: "0.2em",
+              textTransform: "uppercase",
+              color: "var(--fg-muted)",
+              textAlign: "right",
+            }}
+          >
+            <span className="rtc-pulse" style={{ color: "var(--danger)" }}>
+              ● EN COURS
+            </span>
+            &nbsp;&nbsp;/&nbsp;&nbsp;2 places restantes
+          </div>
+        </div>
+
+        <div
+          style={{
+            display: "grid",
+            gridTemplateColumns: "minmax(120px, 1fr) 7fr 4fr",
+            gap: 40,
+            alignItems: "start",
+            position: "relative",
+          }}
+        >
+          <div style={{ position: "relative" }}>
+            <div
+              style={{
+                fontFamily: "'Playfair Display', serif",
+                fontStyle: "italic",
+                fontSize: 80,
+                lineHeight: 0.9,
+                color: "hsl(var(--accent))",
+                fontWeight: 900,
+              }}
+            >
+              I.
+            </div>
+            <div
+              style={{
+                fontFamily: "'JetBrains Mono', monospace",
+                fontSize: 10,
+                letterSpacing: "0.28em",
+                textTransform: "uppercase",
+                color: "var(--fg-muted)",
+                marginTop: 12,
+                writingMode: "vertical-rl",
+                transform: "rotate(180deg)",
+                height: 180,
+              }}
+            >
+              Architecture narrative RTC
+            </div>
+          </div>
+
+          <div>
+            <h1
+              style={{
+                fontFamily: "'Playfair Display', serif",
+                fontWeight: 900,
+                fontSize: quiet
+                  ? "clamp(44px, 5.8vw, 88px)"
+                  : "clamp(52px, 8.2vw, 128px)",
+                lineHeight: 0.92,
+                letterSpacing: "-0.035em",
+                margin: 0,
+                color: "var(--fg-bright)",
+              }}
+            >
+              Vous portez l'offre.
+              <br />
+              <GoldItalic>Je porte la copie</GoldItalic>
+              <br />
+              <GoldItalic>qui la vend.</GoldItalic>
+              <span
+                className="rtc-blink"
+                style={{ color: "hsl(var(--accent))", fontWeight: 400 }}
+              >
+                _
+              </span>
+            </h1>
+          </div>
+
+          <aside
+            style={{
+              position: "relative",
+              borderLeft: "1px solid hsl(var(--border))",
+              paddingLeft: 28,
+              paddingTop: 8,
+              display: "flex",
+              flexDirection: "column",
+              gap: 28,
+            }}
+          >
+            <div
+              style={{
+                fontFamily: "'JetBrains Mono', monospace",
+                fontSize: 10,
+                letterSpacing: "0.3em",
+                textTransform: "uppercase",
+                color: "var(--fg-muted)",
+              }}
+            >
+              Note du diagnosticien
             </div>
 
-            <span className="font-mono text-xs tracking-[0.3em] uppercase text-primary mb-6 block">
-              POUR LES INFOPRENEURS QUI VEULENT PASSER LE CAP DES 100K€/MOIS
-            </span>
-            
-            <h1 className="text-5xl md:text-7xl font-serif font-900 leading-[0.9] tracking-tight mb-8 max-w-5xl">
-              Arrêtez de <span className="italic text-gradient-gold">brûler votre cash sur du trafic froid</span> à cause d'un tunnel VSL fracturé
-            </h1>
-            
-            <div className="line-gold w-32 mt-8 mb-6" />
-            
-            <p className="text-lg md:text-xl text-secondary-foreground max-w-3xl leading-relaxed py-0 pb-[80px]">
-              Votre coût par acquisition explose, vos marges se réduisent, et vos prospects sont mal qualifiés ? C'est le signe que votre tunnel VSL doit être réparé pour colmater les fuites et enfin scaler.
+            <p
+              style={{
+                fontFamily: "'Playfair Display', serif",
+                fontSize: 19,
+                lineHeight: 1.45,
+                margin: 0,
+                color: "var(--fg-bright)",
+                fontWeight: 400,
+              }}
+            >
+              Architecte copy de votre prochain lancement, du premier script
+              d'ads au dernier email de relance.
+              <span style={{ color: "var(--fg-muted)" }}>
+                {" "}
+                Un seul cerveau sur les ads, la LP d'inscription, la séquence
+                pré-événement, le script, le bon de commande, et les emails de
+                relance. Pour que la promesse qui décide votre prospect à
+                cliquer soit la même que celle qui le décide à acheter.
+              </span>
             </p>
-          </motion.div>
+
+            <div
+              style={{
+                display: "flex",
+                alignItems: "center",
+                gap: 12,
+                fontFamily: "'JetBrains Mono', monospace",
+                fontSize: 11,
+                color: "var(--fg-muted)",
+              }}
+            >
+              <span
+                style={{
+                  fontSize: 28,
+                  lineHeight: 1,
+                  color: "var(--fg-bright)",
+                }}
+              >
+                —
+              </span>
+              <div>
+                <div
+                  style={{
+                    color: "var(--fg-bright)",
+                    fontWeight: 500,
+                    letterSpacing: "0.1em",
+                    textTransform: "uppercase",
+                  }}
+                >
+                  Ismaël Karioui
+                </div>
+                <div>Architecte copy de lancement · A à Z</div>
+              </div>
+            </div>
+          </aside>
         </div>
-        
-        <motion.div
-          className="absolute bottom-12 left-6 lg:left-12"
-          animate={{ y: [0, 8, 0] }}
-          transition={{ repeat: Infinity, duration: 2 }}>
 
-          <span className="font-mono text-xs tracking-wider uppercase text-primary my-0 py-[70px]">
-            Découvrir comment réparer votre tunnel VSL ↓
-          </span>
-        </motion.div>
+        <div
+          style={{
+            display: "grid",
+            gridTemplateColumns: "minmax(120px, 1fr) 11fr",
+            gap: 40,
+            marginTop: 64,
+          }}
+        >
+          <div />
+          <div
+            style={{
+              display: "flex",
+              alignItems: "center",
+              gap: 24,
+              flexWrap: "wrap",
+            }}
+          >
+            <div style={{ minWidth: 280, maxWidth: 360 }}>
+              <CTAButton href="https://cal.com/ismaelkarioui/diagnostic" block>
+                Réserver l'appel diagnostic
+              </CTAButton>
+            </div>
+            <div
+              style={{
+                fontFamily: "'JetBrains Mono', monospace",
+                fontSize: 10,
+                letterSpacing: "0.24em",
+                textTransform: "uppercase",
+                color: "var(--fg-muted)",
+              }}
+            >
+              Gratuit · Sans engagement · 30 min
+            </div>
+          </div>
+        </div>
+
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "space-between",
+            alignItems: "center",
+            marginTop: 80,
+            paddingBottom: 24,
+          }}
+        >
+          <div
+            style={{
+              fontFamily: "'JetBrains Mono', monospace",
+              fontSize: 10,
+              letterSpacing: "0.3em",
+              textTransform: "uppercase",
+              color: "hsl(var(--accent))",
+              animation: "rtcBob 2s infinite ease-in-out",
+            }}
+          >
+            ↓ Voir comment se passe un lancement orchestré
+          </div>
+          <div
+            style={{
+              fontFamily: "'JetBrains Mono', monospace",
+              fontSize: 10,
+              letterSpacing: "0.3em",
+              textTransform: "uppercase",
+              color: "var(--fg-muted)",
+            }}
+          >
+            §&nbsp;Rétention · Tension · Conversion
+          </div>
+        </div>
       </div>
-    </section>);
 
+      {showTicker && (
+        <Ticker
+          items={[
+            "Architecte copy de lancement A à Z",
+            "Une seule plume du premier euro d'ad au dernier mail de cart",
+            "5 000 € + 8% au-delà du break-even",
+            "Garantie : 2e lancement sans nouveau fee si non rentable",
+            "Livraison 2 à 3 mois clé-en-main",
+            "Infopreneurs 15 k€+/mois · 5 000 contacts+",
+            "Phase bêta-test · 2 places restantes",
+          ]}
+          style={{ marginTop: 40 }}
+        />
+      )}
+    </section>
+  );
 };
 
 export default HeroSection;

@@ -55,6 +55,29 @@
   }
 }
 
+/* ================================================================
+   LANDING V2 — Editorial broken-grid raw CSS variables.
+   These power the inline styles used by landing/* components.
+   ================================================================ */
+:root {
+  --bg:              hsl(40 20% 98%);
+  --bg-alt:          hsl(35 22% 94%);
+  --bg-elevated:     hsl(0 0% 100%);
+  --ink:             hsl(215 35% 12%);
+  --ink-bright:      hsl(215 40% 8%);
+  --fg:              var(--ink);
+  --fg-bright:       var(--ink-bright);
+  --fg-muted:        hsl(215 12% 45%);
+  --fg-dim:          hsl(215 12% 55%);
+  --border-strong:   hsl(215 20% 22%);
+  --accent-hover:    hsl(35 95% 55%);
+  --accent-soft:     hsl(35 60% 88%);
+  --gold-deep:       hsl(30 55% 35%);
+  --success:         hsl(142 55% 32%);
+  --danger:          hsl(0 72% 50%);
+  --section-pad:     140px;
+}
+
 @layer base {
   * {
     @apply border-border;
@@ -63,7 +86,13 @@
   body {
     @apply bg-background text-foreground antialiased;
     font-family: 'DM Sans', sans-serif;
+    background: var(--bg);
+    color: var(--fg);
+    font-feature-settings: "ss01", "kern";
+    text-rendering: optimizeLegibility;
   }
+
+  ::selection { background: hsl(35 90% 48%); color: #fff; }
 
   h1, h2, h3, h4, h5, h6 {
     font-family: 'Playfair Display', serif;
@@ -94,4 +123,65 @@
     background: linear-gradient(90deg, hsl(35 90% 50%), transparent);
     height: 1px;
   }
+}
+
+/* Layout helpers used by landing V2 */
+.wrap { max-width: 1320px; margin: 0 auto; padding: 0 40px; }
+.wrap-wide { max-width: 1440px; margin: 0 auto; padding: 0 40px; }
+
+@media (max-width: 900px) {
+  .wrap, .wrap-wide { padding: 0 24px; }
+  .rtc-nav { padding: 14px 20px !important; }
+}
+
+@media (max-width: 1024px) {
+  .rtc-nav-links { display: none !important; }
+}
+
+/* Nav top bar */
+.rtc-nav {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 40px;
+  background: color-mix(in srgb, var(--bg) 85%, transparent);
+  backdrop-filter: saturate(1.1) blur(12px);
+  -webkit-backdrop-filter: saturate(1.1) blur(12px);
+  border-bottom: 1px solid hsl(var(--border));
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+}
+.rtc-nav a { color: var(--fg-bright); text-decoration: none; transition: color .2s; }
+.rtc-nav a:hover { color: hsl(var(--accent)); }
+
+/* Hover row headline transition */
+.rtc-row-headline { transition: color .3s ease; }
+.rtc-row:hover .rtc-row-headline { color: hsl(var(--accent)); }
+
+/* FAQ */
+.rtc-faq-q { transition: color .2s; }
+.rtc-faq-item.is-open .rtc-faq-q { color: hsl(var(--accent)); }
+
+/* Animations */
+@keyframes rtcPulse { 0%, 100% { opacity: 1 } 50% { opacity: .55 } }
+.rtc-pulse { animation: rtcPulse 2.2s ease-in-out infinite; }
+
+@keyframes rtcBlink { 0%, 49% { opacity: 1 } 50%, 100% { opacity: 0 } }
+.rtc-blink { animation: rtcBlink 1.1s steps(1) infinite; }
+
+@keyframes rtcBob { 0%, 100% { transform: translateY(0) } 50% { transform: translateY(6px) } }
+
+@keyframes rtcMarquee { from { transform: translateX(0) } to { transform: translateX(-50%) } }
+
+.rtc-stripes {
+  background-image: repeating-linear-gradient(
+    135deg,
+    hsl(var(--accent)) 0, hsl(var(--accent)) 1px,
+    transparent 1px, transparent 9px
+  );
 }
